@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bamboo Flags</title>
+    <meta name="description" content="We help growing businesses work smarter with automation, AI, and better processes. Like bamboo, we're flexible and resilient. Like flags, we provide clear direction.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sunshine-yellow': '#FFD93D',
+                        'sky-blue': '#6BCBEF',
+                        'bubblegum-pink': '#FF6FB5',
+                        'mint-green': '#9EE6CF',
+                        'coral-orange': '#FF885E',
+                        'lavender-purple': '#B28DFF',
+                        'midnight-navy': '#0F2239',
+                        'charcoal-gray': '#2D3748',
+                        'bamboo-green': '#9EE6CF',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body class="font-inter text-charcoal-gray ">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="relative flex items-center justify-between py-4">
+                <div class="px-4">
+                    <a href="index.html" class="text-2xl font-bold text-coral-orange">
+                        Bamboo Flags
+                    </a>
+                </div>
+                
+                <div class="flex items-center lg:hidden">
+                    <button class="mobile-menu-button p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <nav class="hidden lg:flex">
+                    <ul class="flex space-x-8">
+                        <li class="relative group">
+                            <a href="index.html#services" class="text-midnight-navy hover:text-bubblegum-pink transition-colors font-medium flex items-center">
+                                Services
+                                <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </a>
+                            <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                                <div class="py-2">
+                                    <a href="web-development.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sky-blue/10 hover:text-sky-blue transition-colors">
+                                        <div class="font-medium">Web Development</div>
+                                        <div class="text-sm text-gray-500">Fast, beautiful websites</div>
+                                    </a>
+                                    <a href="process-optimization.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sunshine-yellow/10 hover:text-sunshine-yellow transition-colors">
+                                        <div class="font-medium">Process Optimization</div>
+                                        <div class="text-sm text-gray-500">Streamline your workflows</div>
+                                    </a>
+                                    <a href="automation.html" class="block px-4 py-3 text-charcoal-gray hover:bg-mint-green/10 hover:text-mint-green transition-colors">
+                                        <div class="font-medium">Automation Services</div>
+                                        <div class="text-sm text-gray-500">Connect tools & eliminate tasks</div>
+                                    </a>
+                                    <a href="ai-solutions.html" class="block px-4 py-3 text-charcoal-gray hover:bg-lavender-purple/10 hover:text-lavender-purple transition-colors">
+                                        <div class="font-medium">AI Solutions</div>
+                                        <div class="text-sm text-gray-500">Smart assistants & insights</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="index.html#approach" class="text-midnight-navy hover:text-bubblegum-pink transition-colors font-medium">Approach</a></li>
+                        <li><a href="about.html" class="text-midnight-navy hover:text-bubblegum-pink transition-colors font-medium">About</a></li>
+                        <li><a href="index.html#contact" class="text-midnight-navy hover:text-bubblegum-pink transition-colors font-medium">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Mobile menu -->
+                <div class="mobile-menu hidden absolute top-full left-0 w-full bg-white shadow-lg lg:hidden">
+                    <ul class="flex flex-col py-4">
+                        <li><a href="index.html#services" class="block px-4 py-2 text-midnight-navy hover:bg-mint-green/20">Services</a></li>
+                        <li><a href="index.html#approach" class="block px-4 py-2 text-midnight-navy hover:bg-mint-green/20">Approach</a></li>
+                        <li><a href="about.html" class="block px-4 py-2 text-midnight-navy hover:bg-mint-green/20">About</a></li>
+                        <li><a href="index.html#contact" class="block px-4 py-2 text-midnight-navy hover:bg-mint-green/20">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 bg-gradient-to-br from-coral-orange/15 to-white overflow-hidden">
+        <div class="absolute inset-0 animated-gradient opacity-90"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl lg:text-6xl font-bold text-midnight-navy mb-6 leading-tight">
+                    About <span class="text-coral-orange">Bamboo Flags</span>
+                </h1>
+                <p class="text-xl lg:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    We craft custom automation solutions that fit your unique business needs. Every solution is tailored specifically for you - no generic templates, no one-size-fits-all approaches.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Background decorations -->
+        <div class="absolute top-0 right-0 -mr-40 -mt-10 lg:-mr-20">
+            <div class="w-80 h-80 rounded-full bg-gradient-to-br from-bamboo-green/10 to-accent-orange/10 blur-3xl"></div>
+        </div>
+        <div class="absolute bottom-0 left-0 -ml-40 -mb-10 lg:-ml-20">
+            <div class="w-80 h-80 rounded-full bg-gradient-to-tr from-accent-orange/10 to-bamboo-green/10 blur-3xl"></div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-bold text-coral-orange mb-6">Our Vision</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        Every business is unique, with its own workflows, challenges, and goals. We believe automation should adapt to you, not the other way around. Our vision is a world where custom-built solutions empower each business to reach its full potential.
+                    </p>
+                </div>
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-bold text-coral-orange mb-6">Our Mission</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        Create bespoke automation solutions that are designed around your specific needs, workflows, and team. We take the time to understand your business deeply, then craft solutions that feel like they were made just for you - because they were.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 lg:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Our Values</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2 text-center">
+                    <div class="mb-6 flex justify-center">
+                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 2l8 8-8 8-8-8 8-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Tailored Approach</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Every solution is designed specifically for your business. We take time to understand your unique processes before crafting the perfect fit.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2 text-center">
+                    <div class="mb-6 flex justify-center">
+                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Sustainability</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our solutions are built to last and grow with your business, using environmentally conscious practices and renewable resources.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2 text-center">
+                    <div class="mb-6 flex justify-center">
+                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0l1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Custom-Built</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        No templates, no off-the-shelf solutions. Everything we build is created from scratch to match your exact requirements and workflows.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2 text-center">
+                    <div class="mb-6 flex justify-center">
+                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7 14l3-3 3 3 5-5M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Continuous Improvement</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        We embrace iterative development, learning from each implementation to deliver increasingly better outcomes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-5xl font-bold text-midnight-navy mb-4">Our Philosophy</h2>
+            </div>
+            
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+                <div class="lg:col-span-2">
+                    <h3 class="text-2xl font-bold text-midnight-navy mb-6">Why Custom Matters</h3>
+                    <div class="space-y-6">
+                        <p class="text-gray-600 leading-relaxed text-lg">
+                            Your business isn't like anyone else's. Your team has unique skills, your processes have evolved over time, and your goals are distinctly yours. Generic solutions force you to adapt - we believe technology should adapt to you instead.
+                        </p>
+                        
+                        <p class="text-gray-600 leading-relaxed text-lg">
+                            We start every project by diving deep into how your business actually works. We observe your current workflows, understand your pain points, and identify opportunities that off-the-shelf solutions would miss.
+                        </p>
+                        
+                        <p class="text-gray-600 leading-relaxed text-lg">
+                            The result? Solutions that feel intuitive to your team because they're built around how you naturally work. Automation that handles your specific edge cases. Interfaces designed for your exact use patterns. Technology that truly serves your business.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                        <div class="text-3xl font-bold text-bamboo-green mb-2">100%</div>
+                        <div class="text-gray-600">Custom-built solutions</div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                        <div class="text-3xl font-bold text-bamboo-green mb-2">1-on-1</div>
+                        <div class="text-gray-600">Dedicated consultation</div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl p-6 text-center">
+                        <div class="text-3xl font-bold text-bamboo-green mb-2">∞</div>
+                        <div class="text-gray-600">Hours of work saved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients We Support Section -->
+    <section class="py-16 lg:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-5xl font-bold text-midnight-navy mb-4">Clients We Support</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Solo Creators -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
+                    <h3 class="text-xl font-bold text-midnight-navy mb-3">Solo Creators</h3>
+                    <div class="text-gray-500 font-medium mb-4">Independent professionals and passionate individuals</div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        You've got the vision — we bring the technical support to help you realize it. Whether it's a passion project, a personal brand, or a new business idea, we help you move from idea to execution with confidence.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Personalized technical guidance
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Lightweight, scalable tools
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Support that adapts to your pace
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Creative Agencies -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
+                    <h3 class="text-xl font-bold text-midnight-navy mb-3">Creative Agencies</h3>
+                    <div class="text-gray-500 font-medium mb-4">2–20 employees</div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        You bring the ideas, we handle the tech. We partner with creative and marketing teams to deliver smooth technical execution, freeing you up to focus on strategy and design.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-sky-blue rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Seamless technical implementation
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-sky-blue rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Scalable infrastructure
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-sky-blue rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Reliable, long-term partnership
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Growing Companies -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
+                    <h3 class="text-xl font-bold text-midnight-navy mb-3">Growing Companies</h3>
+                    <div class="text-gray-500 font-medium mb-4">10–500 employees</div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        When teams grow, so do their operational needs. We help mid-sized companies move beyond spreadsheets by creating tailored tools that automate processes, connect data sources, and support scalable work—without the complexity or cost of enterprise platforms.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-lavender-purple rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Efficient workflow automation
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-lavender-purple rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Smart integrations
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <span class="w-4 h-4 bg-lavender-purple rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            Cost-effective digital solutions
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 lg:py-24 bg-coral-orange">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="text-3xl lg:text-5xl font-bold text-white mb-6">Ready to Work Smarter?</h2>
+                <p class="text-xl text-white/90 mb-8 leading-relaxed">
+                    Let's talk about how we can help your team save time and focus on what matters most.
+                </p>
+                <a href="/#contact" class="inline-flex items-center justify-center px-8 py-4 bg-white text-coral-orange font-semibold rounded-lg hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-200 shadow-lg">
+                    Start the Conversation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-midnight-navy text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Bamboo Flags</h4>
+                    <p class="text-gray-400">Custom automation. Crafted for you.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="web-development.html" class="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
+                        <li><a href="process-optimization.html" class="text-gray-400 hover:text-white transition-colors">Process Optimization</a></li>
+                        <li><a href="automation.html" class="text-gray-400 hover:text-white transition-colors">Automation</a></li>
+                        <li><a href="ai-solutions.html" class="text-gray-400 hover:text-white transition-colors">AI Solutions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="careers.html" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 Bamboo Flags. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        
+    </script>
+</body>
+</html>
