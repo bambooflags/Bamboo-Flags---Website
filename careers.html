@@ -247,7 +247,7 @@
                     <p class="text-lg text-gray-600 leading-relaxed mb-6">
                         Tell us about yourself, what you're passionate about, and how you think you could contribute to our mission. We're looking for people who:
                     </p>
-                    <ul class="space-y-3 text-gray-600">
+                    <ul class="space-y-3 text-gray-600 mb-6">
                         <li class="flex items-start">
                             <span class="w-4 h-4 bg-bubblegum-pink rounded-full mr-3 flex-shrink-0 flex items-center justify-center mt-1">
                                 <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -281,6 +281,9 @@
                             Value quality, craftsmanship, and sustainable work practices
                         </li>
                     </ul>
+                    <p class="text-gray-600 leading-relaxed bg-gray-50 p-4 rounded-lg border-l-4 border-bubblegum-pink">
+                        <strong>Note:</strong> No CV needed at this stage. Job applications are the one thing we don't automate—real humans review every submission. If we find an interesting match for you in the future, we'll ask for your CV then.
+                    </p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-8 shadow-lg">
@@ -327,20 +330,8 @@
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bubblegum-pink focus:border-transparent">
                         </div>
                         <div>
-                            <textarea name="message" placeholder="Tell us about yourself, your experience, and why you'd like to work with us. What kind of projects get you excited?" rows="6" required
+                            <textarea name="message" placeholder="Tell us about yourself, your experience, and why you'd like to work with us. What kind of projects get you excited?" rows="8" required
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bubblegum-pink focus:border-transparent"></textarea>
-                        </div>
-                        <div>
-                            <label class="flex items-start space-x-3">
-                                <input type="file" name="attachment" accept=".pdf,.doc,.docx"
-                                    class="hidden" id="resume-upload">
-                                <label for="resume-upload" class="cursor-pointer w-full flex items-center justify-center px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg hover:border-bubblegum-pink transition-colors text-gray-600 hover:text-bubblegum-pink">
-                                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 0 1-.88-7.903A5 5 0 1 1 15.9 6L16 6a5 5 0 0 1 1 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
-                                    </svg>
-                                    <span id="file-name">Upload Resume/CV (PDF, DOC, DOCX)</span>
-                                </label>
-                            </label>
                         </div>
                         <button type="submit"
                             class="w-full bg-bubblegum-pink text-white font-semibold py-3 px-6 rounded-lg hover:bg-bubblegum-pink/90 transform hover:-translate-y-1 transition-all duration-200">
@@ -358,14 +349,8 @@
                         </div>
                     </div>
 
-                    <!-- Simple script to show file name when selected -->
+                    <!-- Show success message if redirected back with success parameter -->
                     <script>
-                        document.getElementById('resume-upload').addEventListener('change', function(e) {
-                            const fileName = e.target.files[0]?.name || 'Upload Resume/CV (PDF, DOC, DOCX)';
-                            document.getElementById('file-name').textContent = fileName;
-                        });
-
-                        // Show success message if redirected back with success parameter
                         if (window.location.search.includes('success=true')) {
                             document.getElementById('form-message').classList.remove('hidden');
                             document.getElementById('success-message').classList.remove('hidden');
