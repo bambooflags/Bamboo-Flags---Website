@@ -284,7 +284,19 @@
                 </div>
                 
                 <div class="bg-white rounded-2xl p-8 shadow-lg">
-                    <form class="space-y-6">
+                    <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" class="space-y-6">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="afa5ec6d-46f3-4c89-8b9e-72c595a34e8c">
+
+                        <!-- Custom Subject Line -->
+                        <input type="hidden" name="subject" value="New Career Application - Bamboo Flags">
+
+                        <!-- Redirect to same page with success message (optional) -->
+                        <input type="hidden" name="redirect" value="https://bambooflags.com/careers.html?success=true">
+
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
                         <div>
                             <input type="text" name="name" placeholder="Your Full Name" required
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bubblegum-pink focus:border-transparent">
@@ -320,21 +332,47 @@
                         </div>
                         <div>
                             <label class="flex items-start space-x-3">
-                                <input type="file" name="resume" accept=".pdf,.doc,.docx" 
+                                <input type="file" name="attachment" accept=".pdf,.doc,.docx"
                                     class="hidden" id="resume-upload">
-                                <label for="resume-upload" class="cursor-pointer flex items-center justify-center px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg hover:border-bubblegum-pink transition-colors text-gray-600 hover:text-bubblegum-pink">
+                                <label for="resume-upload" class="cursor-pointer w-full flex items-center justify-center px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg hover:border-bubblegum-pink transition-colors text-gray-600 hover:text-bubblegum-pink">
                                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 0 1-.88-7.903A5 5 0 1 1 15.9 6L16 6a5 5 0 0 1 1 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
                                     </svg>
-                                    Upload Resume/CV (PDF, DOC, DOCX)
+                                    <span id="file-name">Upload Resume/CV (PDF, DOC, DOCX)</span>
                                 </label>
                             </label>
                         </div>
-                        <button type="submit" 
+                        <button type="submit"
                             class="w-full bg-bubblegum-pink text-white font-semibold py-3 px-6 rounded-lg hover:bg-bubblegum-pink/90 transform hover:-translate-y-1 transition-all duration-200">
                             Send Application
                         </button>
                     </form>
+
+                    <!-- Success/Error Messages -->
+                    <div id="form-message" class="mt-4 hidden">
+                        <div id="success-message" class="hidden p-4 bg-mint-green/20 text-green-800 rounded-lg">
+                            ✅ Application submitted successfully! We'll get back to you soon.
+                        </div>
+                        <div id="error-message" class="hidden p-4 bg-red-100 text-red-800 rounded-lg">
+                            ❌ There was an error submitting your application. Please try again or email us directly at info@bambooflags.com
+                        </div>
+                    </div>
+
+                    <!-- Simple script to show file name when selected -->
+                    <script>
+                        document.getElementById('resume-upload').addEventListener('change', function(e) {
+                            const fileName = e.target.files[0]?.name || 'Upload Resume/CV (PDF, DOC, DOCX)';
+                            document.getElementById('file-name').textContent = fileName;
+                        });
+
+                        // Show success message if redirected back with success parameter
+                        if (window.location.search.includes('success=true')) {
+                            document.getElementById('form-message').classList.remove('hidden');
+                            document.getElementById('success-message').classList.remove('hidden');
+                            // Remove success parameter from URL
+                            window.history.replaceState({}, document.title, window.location.pathname);
+                        }
+                    </script>
                 </div>
             </div>
         </div>
