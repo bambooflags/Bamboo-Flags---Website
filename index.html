@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#161826">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69WG47KQK"></script>
     <script>
@@ -11,518 +12,359 @@
         gtag('js', new Date());
         gtag('config', 'G-Q69WG47KQK');
     </script>
-    <title>Bamboo Flags - Automation & AI Solutions for Growing Businesses</title>
-    <meta name="description" content="Transform your business with smart automation and AI that works behind the scenes, so your team can focus on what they do best.">
+    <title>Bamboo Flags — Custom automation. Crafted for you.</title>
+    <meta name="description" content="Bamboo Flags builds custom automation and AI solutions for growing businesses. Book a free 45-minute call.">
         <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Bamboo Flags - Automation &amp; AI Solutions for Growing Businesses">
-    <meta property="og:description" content="Transform your business with smart automation and AI that works behind the scenes, so your team can focus on what they do best.">
+    <meta property="og:title" content="Bamboo Flags — Custom automation. Crafted for you.">
+    <meta property="og:description" content="Bamboo Flags builds custom automation and AI solutions for growing businesses. Book a free 45-minute call.">
     <meta property="og:url" content="https://www.bambooflags.com/">
     <meta property="og:image" content="https://www.bambooflags.com/og-image.png">
     <meta property="og:site_name" content="Bamboo Flags">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bamboo Flags - Automation &amp; AI Solutions for Growing Businesses">
-    <meta name="twitter:description" content="Transform your business with smart automation and AI that works behind the scenes, so your team can focus on what they do best.">
+    <meta name="twitter:title" content="Bamboo Flags — Custom automation. Crafted for you.">
+    <meta name="twitter:description" content="Bamboo Flags builds custom automation and AI solutions for growing businesses. Book a free 45-minute call.">
     <meta name="twitter:image" content="https://www.bambooflags.com/og-image.png">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.bambooflags.com/">
     <!-- Structured Data -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bamboo Flags","url":"https://www.bambooflags.com","description":"Automation & AI Solutions for Growing Businesses","sameAs":[]}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'sunshine-yellow': '#FFD93D',
-                        'sky-blue': '#6BCBEF',
-                        'bubblegum-pink': '#FF6FB5',
-                        'mint-green': '#9EE6CF',
-                        'coral-orange': '#FF885E',
-                        'lavender-purple': '#B28DFF',
-                        'midnight-navy': '#0F2239',
-                        'charcoal-gray': '#2D3748',
-                        'bamboo-green': '#9EE6CF',
-                    },
-                    fontFamily: {
-                        'inter': ['Inter', 'sans-serif'],
-                    }
+            darkMode: 'class',
+            theme: { extend: {
+                fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                colors: {
+                    bg: 'var(--bf-bg)', surface: 'var(--bf-surface)', 'surface-2': 'var(--bf-surface-2)',
+                    ink: { DEFAULT: 'var(--bf-ink)', muted: 'var(--bf-ink-muted)', subtle: 'var(--bf-ink-subtle)' },
+                    line: { DEFAULT: 'var(--bf-line)', strong: 'var(--bf-line-strong)' },
+                    accent: { DEFAULT: 'var(--bf-accent)', ink: 'var(--bf-accent-ink)', tint: 'var(--bf-accent-tint)', line: 'var(--bf-accent-line)' },
+                    section: { DEFAULT: '#262a60', glow: '#353b80' }
+                },
+                fontSize: {
+                    display: ['clamp(44px,8.6vw,112px)', { lineHeight: '1', letterSpacing: '-0.04em' }],
+                    h1: ['clamp(40px,6vw,72px)', { lineHeight: '1.02', letterSpacing: '-0.035em' }],
+                    h2: ['clamp(30px,4vw,48px)', { lineHeight: '1.1', letterSpacing: '-0.025em' }],
+                    h3: ['clamp(22px,2.6vw,36px)', { lineHeight: '1.2', letterSpacing: '-0.02em' }],
+                    lead: ['19px', '1.6'], article: ['18px', '1.7'], body: ['17px', '1.6'],
+                    small: ['15px', '1.55'], meta: ['13px', '1.5'], kicker: ['12px', { lineHeight: '1.4', letterSpacing: '0.08em' }]
+                },
+                borderRadius: { sm: '4px', md: '8px', lg: '14px' },
+                maxWidth: { page: '1280px', measure: '720px' },
+                spacing: { gutter: 'clamp(20px,5vw,72px)', section: 'clamp(64px,9vw,112px)' },
+                boxShadow: {
+                    sm: '0 0 0 1px #3f424d',
+                    md: '0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,.55)',
+                    lg: '0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,.65)'
                 }
-            }
+            } }
         }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style> .animated-gradient{ background: radial-gradient(120% 120% at 10% 10%, rgba(107,203,239,0.40), transparent 55%), radial-gradient(120% 120% at 90% 10%, rgba(255,136,94,0.36), transparent 55%), radial-gradient(120% 120% at 10% 90%, rgba(158,230,207,0.38), transparent 55%), radial-gradient(120% 120% at 90% 90%, rgba(178,141,255,0.36), transparent 55%); background-size: 220% 220%; animation: slowGradient 50s ease-in-out infinite; } @keyframes slowGradient{ 0%{ background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%; } 25%{ background-position: 100% 0%, 0% 0%, 100% 100%, 0% 100%; } 50%{ background-position: 100% 100%, 0% 100%, 100% 0%, 0% 0%; } 75%{ background-position: 0% 100%, 100% 100%, 0% 0%, 100% 0%; } 100%{ background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%; } } </style>
+    <link rel="stylesheet" href="css/site.css">
+    
 </head>
-<body class="font-inter text-charcoal-gray ">
-    <!-- Header -->
-    <header class="fixed top-0 left-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-gray-100">
-        <div class="container mx-auto px-4">
-            <div class="relative flex items-center justify-between py-4">
-                <div class="px-4">
-                    <a href="index.html" class="text-2xl font-bold text-sky-blue">
-                        Bamboo Flags
-                    </a>
-                </div>
-                
-                <div class="flex items-center lg:hidden">
-                    <button class="mobile-menu-button p-2">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
-                    </button>
-                </div>
-                
-                <nav class="hidden lg:flex">
-                    <ul class="flex space-x-8">
-                        <li class="relative group">
-                            <a href="index.html#services" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium flex items-center">
-                                Services
-                                <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                                </svg>
-                            </a>
-                            <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                                <div class="py-2">
-                                    <a href="web-development.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sky-blue/10 hover:text-sky-blue transition-colors">
-                                        <div class="font-medium">Web Development</div>
-                                        <div class="text-sm text-gray-500">Fast, beautiful websites</div>
-                                    </a>
-                                    <a href="process-optimization.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sunshine-yellow/10 hover:text-sunshine-yellow transition-colors">
-                                        <div class="font-medium">Process Optimization</div>
-                                        <div class="text-sm text-gray-500">Streamline your workflows</div>
-                                    </a>
-                                    <a href="automation.html" class="block px-4 py-3 text-charcoal-gray hover:bg-mint-green/10 hover:text-mint-green transition-colors">
-                                        <div class="font-medium">Automation Services</div>
-                                        <div class="text-sm text-gray-500">Connect tools & eliminate tasks</div>
-                                    </a>
-                                    <a href="ai-solutions.html" class="block px-4 py-3 text-charcoal-gray hover:bg-lavender-purple/10 hover:text-lavender-purple transition-colors">
-                                        <div class="font-medium">AI Solutions</div>
-                                        <div class="text-sm text-gray-500">Smart assistants & insights</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="index.html#approach" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Approach</a></li>
-                        <li><a href="about.html" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">About</a></li>
-                        <li><a href="blog.html" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Blog</a></li>
-                        <li><a href="index.html#contact" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <!-- Mobile menu -->
-                <div class="mobile-menu hidden absolute top-full left-0 w-full bg-white shadow-lg lg:hidden">
-                    <ul class="flex flex-col py-4">
-                        <li><a href="index.html#services" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Services</a></li>
-                        <li><a href="index.html#approach" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Approach</a></li>
-                        <li><a href="about.html" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">About</a></li>
-                        <li><a href="blog.html" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Blog</a></li>
-                        <li><a href="index.html#contact" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+<body class="bg-page-glow min-h-screen font-sans text-ink">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 btn btn-secondary bg-bg">Skip to content</a>
+<header class="relative z-40 mx-auto max-w-page px-gutter">
+    <div class="flex h-[68px] items-center gap-8">
+        <a href="index.html" class="flex items-center gap-2.5 text-[16px] font-medium tracking-[-0.01em] text-ink no-underline">
+            <span class="flex flex-col gap-0.5" aria-hidden="true"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+            Bamboo Flags
+        </a>
 
-    <!-- Hero Section -->
-    <section class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 bg-gradient-to-br from-sunshine-yellow/10 to-white overflow-hidden">
-        <div class="absolute inset-0 animated-gradient opacity-70"></div>
-        <div class="container mx-auto px-4 relative z-10">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl lg:text-6xl font-bold text-charcoal-gray mb-8 leading-tight">
-                    Custom automation.<br>
-                    <span class="text-coral-orange">Crafted for you.</span>
-                </h1>
-                <p class="text-xl lg:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-                    Every solution built specifically for your business.<br>No templates, no generic approaches - just custom automation<br>that fits your unique workflows perfectly.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 bg-bubblegum-pink text-white font-semibold rounded-lg hover:bg-bubblegum-pink/90 transform hover:-translate-y-1 transition-all duration-200 shadow-lg">
-                        Start Your Transformation
+        <!-- Desktop nav (≥900px) -->
+        <nav aria-label="Main" class="ml-auto hidden items-center gap-7 text-[14px] min-[900px]:flex">
+            <div class="relative" data-dropdown>
+                <button type="button" class="nav-link flex items-center gap-1 py-1.5" aria-expanded="false" aria-haspopup="true" aria-controls="services-menu" data-dropdown-trigger >
+                    Services
+                    <svg class="caret" width="12" height="12" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                </button>
+                <div id="services-menu" class="absolute -left-5 top-[calc(100%+12px)] hidden w-[380px] flex-col rounded-lg border border-line bg-surface p-2 shadow-lg" data-dropdown-panel>
+                    <a href="web-development.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">01</span><span class="text-[15px]">Web Development</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Sites and internal tools that plug into how you work.</span>
                     </a>
-                    <a href="#services" class="inline-flex items-center justify-center px-8 py-4 border-2 border-charcoal-gray text-charcoal-gray font-semibold rounded-lg hover:bg-charcoal-gray hover:text-white transition-all duration-200">
-                        Explore Services
+                    <a href="process-optimization.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">02</span><span class="text-[15px]">Process Optimization</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Map the workflow, remove the waste.</span>
+                    </a>
+                    <a href="automation.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">03</span><span class="text-[15px]">Automation Services</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Hand repetitive tasks to reliable systems.</span>
+                    </a>
+                    <a href="ai-solutions.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">04</span><span class="text-[15px]">AI Solutions</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Practical AI where it earns its place.</span>
                     </a>
                 </div>
             </div>
+            <a href="#approach" class="nav-link">Approach</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="blog.html" class="nav-link" >Blog</a>
+            <a href="about.html" class="nav-link" >About</a>
+            <a href="#book" class="btn btn-primary">Book a free call</a>
+        </nav>
+
+        <!-- Mobile toggle (<900px) -->
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle>Menu</button>
+    </div>
+
+    <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
+        <span class="label-caps pb-1.5 pt-3.5 text-ink-subtle">Services</span>
+        <a href="web-development.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">01</span>Web Development</a>
+        <a href="process-optimization.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">02</span>Process Optimization</a>
+        <a href="automation.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">03</span>Automation Services</a>
+        <a href="ai-solutions.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">04</span>AI Solutions</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <a href="#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
+        <a href="#pricing" class="py-3 text-[17px] text-ink no-underline">Pricing</a>
+        <a href="blog.html" class="py-3 text-[17px] text-ink no-underline" >Blog</a>
+        <a href="about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <a href="#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
+    </nav>
+
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-x-6 gap-y-1 py-3 label-caps text-ink-subtle">
+        <span>Custom automation &amp; AI for growing businesses</span><span>Discover · Design · Deliver · Drive</span>
+    </div>
+</header>
+
+
+<main id="main">
+<!-- HERO -->
+<section aria-labelledby="h1" class="relative mx-auto max-w-page px-gutter pb-[clamp(72px,10vw,120px)] pt-[clamp(28px,5vw,48px)]">
+    <div aria-hidden="true" class="absolute bottom-[120px] left-[clamp(8px,2.4vw,36px)] top-10 hidden w-[3px] flex-col gap-1.5 min-[900px]:flex">
+        <span class="flex-[3] bg-accent"></span><span class="flex-[2] bg-line"></span><span class="flex-[2] bg-line"></span><span class="flex-[3] bg-line"></span>
+    </div>
+    <h1 id="h1" class="m-0 -ml-[0.05em] text-display font-medium">
+        <span class="block">Custom automation<span class="text-accent">.</span></span>
+        <span class="block text-ink-subtle">Crafted for you<span class="text-accent">.</span></span>
+    </h1>
+    <div class="flex flex-wrap items-start gap-[clamp(32px,5vw,64px)] pt-[clamp(32px,4vw,48px)]">
+        <div class="flex flex-[4_1_300px] flex-col gap-7">
+            <p class="m-0 max-w-[36em] text-[clamp(17px,1.6vw,19px)] leading-[1.6] text-ink-muted">Bring us the tasks your team repeats every week. We design, build and maintain the systems that take them over — explained in plain language.</p>
+            <div class="flex flex-wrap items-center gap-3">
+                <a href="#book" class="btn btn-primary btn-lg">Book a free 45-minute call</a>
+                <a href="#approach" class="btn btn-ghost btn-lg px-4">How we work</a>
+            </div>
+            <nav aria-label="Services" class="flex flex-col">
+                <span class="label-caps pb-2.5 text-accent">Services</span>
+                <a href="web-development.html" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">01</span><span class="flex-1 text-[16px]">Web Development</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+                <a href="process-optimization.html" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">02</span><span class="flex-1 text-[16px]">Process Optimization</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+                <a href="automation.html" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">03</span><span class="flex-1 text-[16px]">Automation Services</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+                <a href="ai-solutions.html" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">04</span><span class="flex-1 text-[16px]">AI Solutions</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+                <div class="border-t border-line"></div>
+            </nav>
         </div>
+
+        <figure class="fill-surface-70 m-0 min-w-0 flex-[7_1_440px] overflow-hidden rounded-lg border border-line">
+            <figcaption class="label-caps grid grid-cols-[40px_minmax(0,1fr)_112px] border-b border-line px-4 py-3 text-ink-subtle">
+                <span>#</span><span>Repetitive task — examples</span><span>Status</span>
+            </figcaption>
+            <ol class="m-0 list-none p-0" aria-live="off" data-ledger>
+                <li class="ledger-row relative grid grid-cols-[40px_minmax(0,1fr)_112px] items-center border-b border-[#292b31] px-4 py-3.5">
+                    <span aria-hidden="true" class="ledger-bar absolute inset-y-0 left-0 w-[3px]"></span>
+                    <span class="tnum text-meta text-[#9397ab]">01</span>
+                    <span class="ledger-task pr-3 text-[clamp(15px,1.4vw,17px)] leading-[1.4]">Re-typing order details into invoices</span>
+                    <span><span class="tag tag-accent">Automated</span><span class="tag tag-neutral">By hand</span></span>
+                </li>
+                <li class="ledger-row relative grid grid-cols-[40px_minmax(0,1fr)_112px] items-center border-b border-[#292b31] px-4 py-3.5">
+                    <span aria-hidden="true" class="ledger-bar absolute inset-y-0 left-0 w-[3px]"></span>
+                    <span class="tnum text-meta text-[#9397ab]">02</span>
+                    <span class="ledger-task pr-3 text-[clamp(15px,1.4vw,17px)] leading-[1.4]">Chasing clients for missing documents</span>
+                    <span><span class="tag tag-accent">Automated</span><span class="tag tag-neutral">By hand</span></span>
+                </li>
+                <li class="ledger-row relative grid grid-cols-[40px_minmax(0,1fr)_112px] items-center border-b border-[#292b31] px-4 py-3.5">
+                    <span aria-hidden="true" class="ledger-bar absolute inset-y-0 left-0 w-[3px]"></span>
+                    <span class="tnum text-meta text-[#9397ab]">03</span>
+                    <span class="ledger-task pr-3 text-[clamp(15px,1.4vw,17px)] leading-[1.4]">Copying form leads into the CRM</span>
+                    <span><span class="tag tag-accent">Automated</span><span class="tag tag-neutral">By hand</span></span>
+                </li>
+                <li class="ledger-row relative grid grid-cols-[40px_minmax(0,1fr)_112px] items-center border-b border-[#292b31] px-4 py-3.5">
+                    <span aria-hidden="true" class="ledger-bar absolute inset-y-0 left-0 w-[3px]"></span>
+                    <span class="tnum text-meta text-[#9397ab]">04</span>
+                    <span class="ledger-task pr-3 text-[clamp(15px,1.4vw,17px)] leading-[1.4]">Building the weekly report by hand</span>
+                    <span><span class="tag tag-accent">Automated</span><span class="tag tag-neutral">By hand</span></span>
+                </li>
+                <li class="ledger-row relative grid grid-cols-[40px_minmax(0,1fr)_112px] items-center border-b border-[#292b31] px-4 py-3.5">
+                    <span aria-hidden="true" class="ledger-bar absolute inset-y-0 left-0 w-[3px]"></span>
+                    <span class="tnum text-meta text-[#9397ab]">05</span>
+                    <span class="ledger-task pr-3 text-[clamp(15px,1.4vw,17px)] leading-[1.4]">Answering the same support questions</span>
+                    <span><span class="tag tag-accent">Automated</span><span class="tag tag-neutral">By hand</span></span>
+                </li>
+            </ol>
+            <p class="m-0 px-4 py-3 text-meta text-ink-subtle">Illustrative examples of the work we automate — not client data.</p>
+        </figure>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" aria-labelledby="h-services" class="mx-auto max-w-page px-gutter py-section">
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(32px,4vw,48px)]">
+        <span class="kicker">01 — Services</span>
+        <h2 id="h-services" class="m-0 text-h2 font-medium">Four ways we take work off your plate.</h2>
+        <p class="m-0 text-body text-ink-muted">Most projects combine two or more. We scope what your business needs, not a package.</p>
+    </div>
+    <div class="grid grid-cols-1 gap-4 min-[600px]:grid-cols-2 min-[1100px]:grid-cols-4">
         
-        <!-- Background decorations -->
-        <div class="absolute top-0 right-0 -mr-40 -mt-10 lg:-mr-20">
-            <div class="w-80 h-80 rounded-full bg-gradient-to-br from-mint-green/20 to-lavender-purple/20 blur-3xl"></div>
+        <a href="web-development.html" class="fill-surface-60 box-border flex min-h-[240px] flex-col gap-3.5 rounded-lg border border-line p-6 text-ink no-underline transition-colors duration-200 hover:border-accent-line hover:bg-surface">
+            <span class="flex items-center justify-between"><span class="tnum text-meta text-accent">01</span><span aria-hidden="true" class="flex items-end gap-[3px]"><span class="w-[3px] bg-accent" style="height:8px"></span><span class="w-[3px] bg-line-strong" style="height:12px"></span><span class="w-[3px] bg-line-strong" style="height:16px"></span><span class="w-[3px] bg-line-strong" style="height:20px"></span></span></span>
+            <span class="text-[22px] font-medium tracking-[-0.01em]">Web Development</span>
+            <span class="flex-1 text-small text-ink-muted">Websites, portals and internal tools built to connect with the systems you already use — not a brochure that sits on its own.</span>
+            <span class="text-[14px] text-accent-ink">Explore Web Development →</span>
+        </a>
+        <a href="process-optimization.html" class="fill-surface-60 box-border flex min-h-[240px] flex-col gap-3.5 rounded-lg border border-line p-6 text-ink no-underline transition-colors duration-200 hover:border-accent-line hover:bg-surface">
+            <span class="flex items-center justify-between"><span class="tnum text-meta text-accent">02</span><span aria-hidden="true" class="flex items-end gap-[3px]"><span class="w-[3px] bg-accent" style="height:8px"></span><span class="w-[3px] bg-accent" style="height:12px"></span><span class="w-[3px] bg-line-strong" style="height:16px"></span><span class="w-[3px] bg-line-strong" style="height:20px"></span></span></span>
+            <span class="text-[22px] font-medium tracking-[-0.01em]">Process Optimization</span>
+            <span class="flex-1 text-small text-ink-muted">We map how work actually moves through your team, find the steps that cost time, and redesign the process before anything is built.</span>
+            <span class="text-[14px] text-accent-ink">Explore Process Optimization →</span>
+        </a>
+        <a href="automation.html" class="fill-surface-60 box-border flex min-h-[240px] flex-col gap-3.5 rounded-lg border border-line p-6 text-ink no-underline transition-colors duration-200 hover:border-accent-line hover:bg-surface">
+            <span class="flex items-center justify-between"><span class="tnum text-meta text-accent">03</span><span aria-hidden="true" class="flex items-end gap-[3px]"><span class="w-[3px] bg-accent" style="height:8px"></span><span class="w-[3px] bg-accent" style="height:12px"></span><span class="w-[3px] bg-accent" style="height:16px"></span><span class="w-[3px] bg-line-strong" style="height:20px"></span></span></span>
+            <span class="text-[22px] font-medium tracking-[-0.01em]">Automation Services</span>
+            <span class="flex-1 text-small text-ink-muted">Data entry, handovers, reminders and reports handed to systems that run every time, with clear logs when something needs a person.</span>
+            <span class="text-[14px] text-accent-ink">Explore Automation Services →</span>
+        </a>
+        <a href="ai-solutions.html" class="fill-surface-60 box-border flex min-h-[240px] flex-col gap-3.5 rounded-lg border border-line p-6 text-ink no-underline transition-colors duration-200 hover:border-accent-line hover:bg-surface">
+            <span class="flex items-center justify-between"><span class="tnum text-meta text-accent">04</span><span aria-hidden="true" class="flex items-end gap-[3px]"><span class="w-[3px] bg-accent" style="height:8px"></span><span class="w-[3px] bg-accent" style="height:12px"></span><span class="w-[3px] bg-accent" style="height:16px"></span><span class="w-[3px] bg-accent" style="height:20px"></span></span></span>
+            <span class="text-[22px] font-medium tracking-[-0.01em]">AI Solutions</span>
+            <span class="flex-1 text-small text-ink-muted">AI applied to specific tasks — reading documents, drafting replies, sorting requests — with people kept in the loop where it matters.</span>
+            <span class="text-[14px] text-accent-ink">Explore AI Solutions →</span>
+        </a>
+    </div>
+</section>
+
+<!-- 4D FRAMEWORK -->
+<section id="approach" aria-labelledby="h-4d" class="mx-auto max-w-page px-gutter py-section">
+    <div class="rule-fade mb-section"></div>
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(40px,5vw,64px)]">
+        <span class="kicker">02 — The 4D Framework</span>
+        <h2 id="h-4d" class="m-0 text-h2 font-medium">One path, four segments. You always know where the project stands.</h2>
+    </div>
+    <ol class="m-0 grid list-none grid-cols-1 gap-x-6 p-0 min-[600px]:grid-cols-2 min-[1100px]:grid-cols-4">
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-accent"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">D1</span>
+            <h3 class="m-0 text-[clamp(28px,3vw,36px)] font-medium tracking-[-0.025em]">Discover</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">A free audit of how work moves through your business, with an ROI forecast for what to automate first.</p>
+            <span class="tag tag-outline self-start">Free</span>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#796cbf]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">D2</span>
+            <h3 class="m-0 text-[clamp(28px,3vw,36px)] font-medium tracking-[-0.025em]">Design</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">The system architecture and a working prototype, so you see it before we build it.</p>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#5d5294]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">D3</span>
+            <h3 class="m-0 text-[clamp(28px,3vw,36px)] font-medium tracking-[-0.025em]">Deliver</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">Implementation, testing and training for your team, until it runs as part of the day.</p>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#423a6a]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">D4</span>
+            <h3 class="m-0 text-[clamp(28px,3vw,36px)] font-medium tracking-[-0.025em]">Drive</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">A continuous-improvement retainer: we monitor, adjust and extend the system as you grow.</p>
+            <span class="tag tag-outline self-start">Retainer</span>
+        </li>
+    </ol>
+</section>
+
+<!-- ENGAGEMENTS -->
+<section id="pricing" aria-labelledby="h-pricing" class="mx-auto max-w-page px-gutter py-section">
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(32px,4vw,48px)]">
+        <span class="kicker">03 — Engagements</span>
+        <h2 id="h-pricing" class="m-0 text-h2 font-medium">Three ways to engage. Priced before we start.</h2>
+        <p class="m-0 text-body text-ink-muted">Every engagement begins with Discover: a free audit and ROI forecast, so the scope and price are clear up front.</p>
+    </div>
+    <div class="grid grid-cols-1 gap-4 min-[900px]:grid-cols-3">
+        <article class="fill-surface-60 relative flex flex-col gap-[18px] rounded-lg border border-line px-6 py-7">
+            <span aria-hidden="true" class="absolute -top-px left-6 h-0.5 w-11 bg-[#75798c]"></span>
+            <h3 class="m-0 text-[20px] font-medium">Starter</h3>
+            <p class="m-0 flex flex-col gap-0.5"><span class="text-meta text-ink-subtle">From</span><span class="tnum text-[clamp(36px,4vw,44px)] font-medium tracking-[-0.03em]">€3,000</span></p>
+            <p class="m-0 flex-1 text-small text-ink-muted">A focused first project: one workflow, scoped, built and handed over.</p>
+            <a href="#book" class="btn btn-secondary mt-2 min-h-[44px] w-full">Discuss Starter</a>
+        </article>
+        <article class="fill-featured relative flex flex-col gap-[18px] rounded-lg border border-accent-line px-6 py-7">
+            <span aria-hidden="true" class="absolute -top-px left-6 h-0.5 w-11 bg-accent"></span>
+            <div class="flex items-center justify-between gap-3"><h3 class="m-0 text-[20px] font-medium">Growth</h3><span class="tag tag-accent">Full 4D</span></div>
+            <p class="m-0 flex flex-col gap-0.5"><span class="text-meta text-ink-subtle">From</span><span class="tnum text-[clamp(36px,4vw,44px)] font-medium tracking-[-0.03em]">€12,000</span></p>
+            <p class="m-0 flex-1 text-small text-ink-muted">Connected systems across several workflows, taken through all four segments of the framework.</p>
+            <a href="#book" class="btn btn-secondary mt-2 min-h-[44px] w-full">Discuss Growth</a>
+        </article>
+        <article class="fill-surface-60 relative flex flex-col gap-[18px] rounded-lg border border-line px-6 py-7">
+            <span aria-hidden="true" class="absolute -top-px left-6 h-0.5 w-11 bg-[#75798c]"></span>
+            <h3 class="m-0 text-[20px] font-medium">Flagship</h3>
+            <p class="m-0 flex flex-col gap-0.5"><span class="text-meta text-ink-subtle">Pricing</span><span class="tnum text-[clamp(36px,4vw,44px)] font-medium tracking-[-0.03em]">Custom quote</span></p>
+            <p class="m-0 flex-1 text-small text-ink-muted">Larger or multi-team programmes, scoped together after Discover.</p>
+            <a href="#book" class="btn btn-secondary mt-2 min-h-[44px] w-full">Request a quote</a>
+        </article>
+    </div>
+</section>
+
+<!-- BOOK A CALL -->
+<section id="book" aria-labelledby="h-book" class="fill-section mt-[clamp(32px,5vw,64px)] scroll-mt-4">
+    <div class="mx-auto flex max-w-page flex-wrap items-start gap-[clamp(32px,5vw,72px)] px-gutter py-section">
+        <div class="flex flex-[4_1_300px] flex-col gap-[18px]">
+            <span class="kicker !text-[#e7e5fe]">04 — Book a call</span>
+            <h2 id="h-book" class="m-0 text-[clamp(32px,4.4vw,56px)] font-medium leading-[1.05] tracking-[-0.03em] text-[#e9e9ed]">Bring your list. Leave with a clear next step.</h2>
+            <p class="m-0 max-w-[32em] text-body text-[#e4e7f5]">A free 45-minute call. Tell us which tasks eat your team's week; we'll tell you plainly what can be automated and what it would take.</p>
+            <ul class="mt-2 flex list-none flex-col gap-2.5 p-0 text-small text-[#e4e7f5]">
+                <li class="flex items-baseline gap-2.5"><span aria-hidden="true" class="h-0.5 w-2.5 flex-none -translate-y-1 bg-[#e7e5fe]"></span>45 minutes, video call</li>
+                <li class="flex items-baseline gap-2.5"><span aria-hidden="true" class="h-0.5 w-2.5 flex-none -translate-y-1 bg-[#e7e5fe]"></span>No preparation needed — a list of tasks helps</li>
+                <li class="flex items-baseline gap-2.5"><span aria-hidden="true" class="h-0.5 w-2.5 flex-none -translate-y-1 bg-[#e7e5fe]"></span>No obligation</li>
+            </ul>
         </div>
-        <div class="absolute bottom-0 left-0 -ml-40 -mb-10 lg:-ml-20">
-            <div class="w-80 h-80 rounded-full bg-gradient-to-tr from-coral-orange/20 to-sky-blue/20 blur-3xl"></div>
+        <div class="flex min-w-0 flex-[6_1_420px] flex-col gap-3">
+            <div id="cal-embed" class="cal-frame overflow-hidden rounded-lg bg-[#161826]" data-cal-embed data-cal-link="bambooflags/free-45-min-consultation" data-cal-namespace="free-45-min-consultation" aria-label="Booking calendar">
+                <noscript><p class="p-6 text-[#e4e7f5]">The booking calendar needs JavaScript. <a class="link-bf" href="https://cal.com/bambooflags/free-45-min-consultation">Open the booking page</a>.</p></noscript>
+            </div>
+            <p class="m-0 text-meta text-[#e4e7f5]">Calendar not loading? <a class="link-bf !text-[#e7e5fe]" href="https://cal.com/bambooflags/free-45-min-consultation" target="_blank" rel="noopener">Open the booking page</a>.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-16 lg:py-24 bg-midnight-navy">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 id="service-title" class="text-3xl lg:text-5xl font-bold text-white mb-4 transition-colors duration-300">Core Service Pillars</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Web Development -->
-                <a href="web-development.html" class="service-card group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-sky-blue/60 hover:bg-white transition-all duration-300 border border-gray-100 hover:-translate-y-2 hover:border-sky-blue/50" data-color="sky-blue">
-                    <div class="mb-6 flex justify-center">
-                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-4 group-hover:text-sky-blue transition-colors text-center">
-                        Web Development
-                    </h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Fast, beautiful websites that work perfectly on every device. Built for accessibility and hosted with 100% renewable energy.
-                    </p>
-                    <ul class="space-y-2 text-sm">
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Modern, lightning-fast websites
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Mobile apps and online stores
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Eco-friendly hosting included
-                        </li>
-                    </ul>
-                </a>
+</main>
 
-                <!-- Process Optimization -->
-                <a href="process-optimization.html" class="service-card group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-sunshine-yellow/60 hover:bg-white transition-all duration-300 border border-gray-100 hover:-translate-y-2 hover:border-sunshine-yellow/50" data-color="sunshine-yellow">
-                    <div class="mb-6 flex justify-center">
-                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-4 group-hover:text-sunshine-yellow transition-colors text-center">
-                        Process Optimization
-                    </h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Streamline how your team works using proven improvement methods. Design better processes that actually work for real people.
-                    </p>
-                    <ul class="space-y-2 text-sm">
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Collaborative improvement workshops
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Results-focused enhancements
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Ongoing refinement and support
-                        </li>
-                    </ul>
-                </a>
-
-                <!-- Automation Services -->
-                <a href="automation.html" class="service-card group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-mint-green/60 hover:bg-white transition-all duration-300 border border-gray-100 hover:-translate-y-2 hover:border-mint-green/50" data-color="mint-green">
-                    <div class="mb-6 flex justify-center">
-                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 4v5h.582m15.356 2A8.001 8.001 0 0 0 4.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 0 1-15.357-2m15.357 2H15"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-4 group-hover:text-mint-green transition-colors text-center">
-                        Automation Services
-                    </h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Connect your existing tools and eliminate repetitive tasks. Get working prototypes in just 2 weeks that save hours every day.
-                    </p>
-                    <ul class="space-y-2 text-sm">
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Map and streamline your workflows
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Connect your favorite business tools
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Custom solutions built for your needs
-                        </li>
-                    </ul>
-                </a>
-
-                <!-- AI Solutions -->
-                <a href="ai-solutions.html" class="service-card group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-lavender-purple/60 hover:bg-white transition-all duration-300 border border-gray-100 hover:-translate-y-2 hover:border-lavender-purple/50" data-color="lavender-purple">
-                    <div class="mb-6 flex justify-center">
-                        <svg class="w-16 h-16 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-4 group-hover:text-lavender-purple transition-colors text-center">
-                        AI Solutions
-                    </h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Smart AI assistants and insights that understand your business. Safe, practical AI that delivers real results you can measure.
-                    </p>
-                    <ul class="space-y-2 text-sm">
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Intelligent chatbots and assistants
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Clear dashboards that reveal insights
-                        </li>
-                        <li class="flex items-center text-gray-600">
-                            <span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center">
-                                <svg class="w-3 h-3 text-charcoal-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                                </svg>
-                            </span>
-                            Automated content creation workflows
-                        </li>
-                    </ul>
-                </a>
-            </div>
+<footer class="mx-auto flex max-w-page flex-col gap-12 px-gutter pb-8 pt-[clamp(48px,6vw,72px)] text-ink">
+    <div class="flex flex-wrap gap-x-16 gap-y-10">
+        <div class="flex flex-[2_1_260px] flex-col gap-3.5">
+            <span class="flex items-center gap-2.5 text-[16px] font-medium">
+                <span aria-hidden="true" class="flex flex-col gap-0.5"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+                Bamboo Flags
+            </span>
+            <p class="m-0 max-w-[28em] text-[14px] leading-[1.6] text-ink-subtle">Custom automation and AI for growing businesses.</p>
         </div>
-    </section>
+        <nav aria-label="Services" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Services</span>
+            <a href="web-development.html" class="text-ink-muted no-underline hover:text-accent-ink">Web Development</a>
+            <a href="process-optimization.html" class="text-ink-muted no-underline hover:text-accent-ink">Process Optimization</a>
+            <a href="automation.html" class="text-ink-muted no-underline hover:text-accent-ink">Automation Services</a>
+            <a href="ai-solutions.html" class="text-ink-muted no-underline hover:text-accent-ink">AI Solutions</a>
+        </nav>
+        <nav aria-label="Company" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Company</span>
+            <a href="about.html" class="text-ink-muted no-underline hover:text-accent-ink">About</a>
+            <a href="blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a>
+            <a href="careers.html" class="text-ink-muted no-underline hover:text-accent-ink">Careers</a>
+            <a href="#book" class="text-ink-muted no-underline hover:text-accent-ink">Book a call</a>
+        </nav>
+    </div>
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-3 text-meta text-ink-subtle">
+        <span>© 2026 Bamboo Flags</span>
+        <span class="flex gap-5"><a href="privacy.html" class="text-ink-muted no-underline hover:text-accent-ink">Privacy</a><a href="terms.html" class="text-ink-muted no-underline hover:text-accent-ink">Terms</a></span>
+    </div>
+</footer>
 
-    <!-- Approach Section -->
-    <section id="approach" class="py-16 lg:py-24 bg-mint-green/10">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Our 4D Framework</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-coral-orange text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Discover</h3>
-                    <p class="text-gray-600 leading-relaxed">Free audit & ROI forecast to understand your current state and potential improvements.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-bubblegum-pink text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Design</h3>
-                    <p class="text-gray-600 leading-relaxed">Solution architecture & prototype development tailored to your specific needs.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-sky-blue text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Deliver</h3>
-                    <p class="text-gray-600 leading-relaxed">Implementation, testing, and comprehensive training for your team.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-lavender-purple text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Drive</h3>
-                    <p class="text-gray-600 leading-relaxed">Continuous improvement retainer to ensure lasting success and growth.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Pricing Section -->
-    <section class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Engagement Options</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
-                <!-- Starter Card -->
-                <div class="bg-gradient-to-br from-coral-orange/10 to-coral-orange/5 rounded-2xl p-8 shadow-lg border border-coral-orange/20 hover:shadow-xl hover:border-coral-orange/40 transition-all duration-300 relative">
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4">Starter</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">Automate repetitive work & save hours weekly</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">Perfect for small workflows or single processes. Get measurable results without the complexity of a full rollout.</p>
-                    <div class="text-2xl font-bold text-coral-orange mb-6 text-center">From €3,000</div>
-                </div>
-                
-                <!-- Growth Card -->
-                <div class="bg-gradient-to-br from-bubblegum-pink/10 to-bubblegum-pink/5 rounded-2xl p-8 shadow-xl border-2 border-bubblegum-pink/30 transform scale-105 hover:shadow-2xl hover:border-bubblegum-pink/50 transition-all duration-300 relative">
-                    <!-- Most Popular Badge -->
-                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                        <div class="bg-bubblegum-pink text-white text-sm font-bold py-2 px-6 rounded-full shadow-md">
-                            Most Popular
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4 mt-4">Growth</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">Streamline your department & unlock 30% productivity</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">Includes full integration, staff training, and ongoing support for seamless adoption. Designed to scale with your team's needs.</p>
-                    <div class="text-2xl font-bold text-bubblegum-pink mb-6 text-center">From €12,000</div>
-                </div>
-                
-                <!-- Flagship Card -->
-                <div class="bg-gradient-to-br from-lavender-purple/10 to-lavender-purple/5 rounded-2xl p-8 shadow-lg border border-lavender-purple/20 hover:shadow-xl hover:border-lavender-purple/40 transition-all duration-300 relative">
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4">Flagship</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">Tailored company-wide transformation</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">End-to-end custom solution built for maximum ROI. Scope, pricing, and timelines adapted to your unique business.</p>
-                    <div class="text-2xl font-bold text-lavender-purple mb-6 text-center">Custom Quote</div>
-                </div>
-            </div>
-            
-            <!-- Single CTA Button -->
-            <div class="text-center">
-                <a href="#contact" class="inline-block bg-bubblegum-pink text-white font-semibold py-4 px-8 rounded-lg hover:bg-bubblegum-pink/90 transform hover:-translate-y-1 transition-all duration-200 shadow-lg hover:shadow-xl">
-                    Book My Free 45-Minute Call
-                </a>
-            </div>
-        </div>
-    </section>
+<script src="js/site.js" defer></script>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 lg:py-24 bg-sunshine-yellow/10">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Ready to Transform Your Business?</h2>
-            </div>
-            
-            <div class="max-w-6xl mx-auto text-center mb-4">
-                <div>
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-6">Get Started Today</h3>
-                    <p class="text-lg text-gray-600 leading-relaxed">
-                        Schedule a free consultation to discover how automation and AI can transform your operations.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Cal inline embed code begins -->
-            <div style="width:100%;height:800px;overflow:auto" id="my-cal-inline-free-45-min-consultation"></div>
-            <script type="text/javascript">
-              (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-            Cal("init", "free-45-min-consultation", {origin:"https://app.cal.com"});
-
-              Cal.ns["free-45-min-consultation"]("inline", {
-                elementOrSelector:"#my-cal-inline-free-45-min-consultation",
-                config: {"layout":"month_view"},
-                calLink: "bambooflags/free-45-min-consultation",
-              });
-
-              Cal.ns["free-45-min-consultation"]("ui", {"hideEventTypeDetails":false,"layout":"month_view","branding":{"brandColor":"#000000","hideBranding":true}});
-              </script>
-              <!-- Cal inline embed code ends -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-midnight-navy text-white py-16">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Bamboo Flags</h4>
-                    <p class="text-gray-400">Custom automation. Crafted for you.</p>
-                </div>
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Services</h4>
-                    <ul class="space-y-2">
-                        <li><a href="web-development.html" class="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
-                        <li><a href="process-optimization.html" class="text-gray-400 hover:text-white transition-colors">Process Optimization</a></li>
-                        <li><a href="automation.html" class="text-gray-400 hover:text-white transition-colors">Automation</a></li>
-                        <li><a href="ai-solutions.html" class="text-gray-400 hover:text-white transition-colors">AI Solutions</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Company</h4>
-                    <ul class="space-y-2">
-                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
-                        <li><a href="careers.html" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 pt-8 text-center">
-                <p class="text-gray-400">&copy; 2026 Bamboo Flags. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
-            document.querySelector('.mobile-menu').classList.toggle('hidden');
-        });
-        
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-        
-        // Service card hover effect for title color change
-        const serviceTitle = document.getElementById('service-title');
-        const serviceCards = document.querySelectorAll('.service-card');
-        
-        const colorMap = {
-            'sky-blue': '#6BCBEF',
-            'sunshine-yellow': '#FFD93D', 
-            'mint-green': '#9EE6CF',
-            'lavender-purple': '#B28DFF'
-        };
-        
-        serviceCards.forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                const color = this.getAttribute('data-color');
-                if (serviceTitle) serviceTitle.style.color = colorMap[color];
-            });
-            
-            card.addEventListener('mouseleave', function() {
-                if (serviceTitle) serviceTitle.style.color = 'white';
-            });
-        });
-    </script>
 </body>
 </html>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#161826">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69WG47KQK"></script>
     <script>
@@ -11,420 +12,317 @@
         gtag('js', new Date());
         gtag('config', 'G-Q69WG47KQK');
     </script>
-    <title>Automation Services - Bamboo Flags</title>
-    <meta name="description" content="Connect your existing tools and eliminate repetitive tasks. Get working automation prototypes in just 2 weeks that save hours every day.">
+    <title>Automation Services — Bamboo Flags</title>
+    <meta name="description" content="We hand the repetitive parts of your week — data entry, handovers, reminders, reports — to systems that run every time.">
         <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Automation Services - Bamboo Flags">
-    <meta property="og:description" content="Connect your existing tools and eliminate repetitive tasks. Get working automation prototypes in just 2 weeks that save hours every day.">
+    <meta property="og:title" content="Automation Services — Bamboo Flags">
+    <meta property="og:description" content="We hand the repetitive parts of your week — data entry, handovers, reminders, reports — to systems that run every time.">
     <meta property="og:url" content="https://www.bambooflags.com/automation.html">
     <meta property="og:image" content="https://www.bambooflags.com/og-image.png">
     <meta property="og:site_name" content="Bamboo Flags">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Automation Services - Bamboo Flags">
-    <meta name="twitter:description" content="Connect your existing tools and eliminate repetitive tasks. Get working automation prototypes in just 2 weeks that save hours every day.">
+    <meta name="twitter:title" content="Automation Services — Bamboo Flags">
+    <meta name="twitter:description" content="We hand the repetitive parts of your week — data entry, handovers, reminders, reports — to systems that run every time.">
     <meta name="twitter:image" content="https://www.bambooflags.com/og-image.png">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.bambooflags.com/automation.html">
     <!-- Structured Data -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bamboo Flags","url":"https://www.bambooflags.com","description":"Automation & AI Solutions for Growing Businesses","sameAs":[]}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'sunshine-yellow': '#FFD93D',
-                        'sky-blue': '#6BCBEF',
-                        'bubblegum-pink': '#FF6FB5',
-                        'mint-green': '#9EE6CF',
-                        'coral-orange': '#FF885E',
-                        'lavender-purple': '#B28DFF',
-                        'midnight-navy': '#0F2239',
-                        'charcoal-gray': '#2D3748',
-                        'bamboo-green': '#9EE6CF',
-                    },
-                    fontFamily: {
-                        'inter': ['Inter', 'sans-serif'],
-                    }
+            darkMode: 'class',
+            theme: { extend: {
+                fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                colors: {
+                    bg: 'var(--bf-bg)', surface: 'var(--bf-surface)', 'surface-2': 'var(--bf-surface-2)',
+                    ink: { DEFAULT: 'var(--bf-ink)', muted: 'var(--bf-ink-muted)', subtle: 'var(--bf-ink-subtle)' },
+                    line: { DEFAULT: 'var(--bf-line)', strong: 'var(--bf-line-strong)' },
+                    accent: { DEFAULT: 'var(--bf-accent)', ink: 'var(--bf-accent-ink)', tint: 'var(--bf-accent-tint)', line: 'var(--bf-accent-line)' },
+                    section: { DEFAULT: '#262a60', glow: '#353b80' }
+                },
+                fontSize: {
+                    display: ['clamp(44px,8.6vw,112px)', { lineHeight: '1', letterSpacing: '-0.04em' }],
+                    h1: ['clamp(40px,6vw,72px)', { lineHeight: '1.02', letterSpacing: '-0.035em' }],
+                    h2: ['clamp(30px,4vw,48px)', { lineHeight: '1.1', letterSpacing: '-0.025em' }],
+                    h3: ['clamp(22px,2.6vw,36px)', { lineHeight: '1.2', letterSpacing: '-0.02em' }],
+                    lead: ['19px', '1.6'], article: ['18px', '1.7'], body: ['17px', '1.6'],
+                    small: ['15px', '1.55'], meta: ['13px', '1.5'], kicker: ['12px', { lineHeight: '1.4', letterSpacing: '0.08em' }]
+                },
+                borderRadius: { sm: '4px', md: '8px', lg: '14px' },
+                maxWidth: { page: '1280px', measure: '720px' },
+                spacing: { gutter: 'clamp(20px,5vw,72px)', section: 'clamp(64px,9vw,112px)' },
+                boxShadow: {
+                    sm: '0 0 0 1px #3f424d',
+                    md: '0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,.55)',
+                    lg: '0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,.65)'
                 }
-            }
+            } }
         }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style> body > section:first-of-type{ position: relative; } body > section:first-of-type::before{ content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0.45; background: radial-gradient(120% 120% at 12% 12%, rgba(158,230,207,0.22), transparent 58%), radial-gradient(120% 120% at 88% 12%, rgba(255,217,61,0.18), transparent 58%), radial-gradient(120% 120% at 12% 88%, rgba(255,136,94,0.16), transparent 58%); background-size: 220% 220%; animation: slowGradient 55s ease-in-out infinite; } @keyframes slowGradient{ 0%{ background-position: 0% 0%, 100% 0%, 0% 100%; } 50%{ background-position: 100% 100%, 0% 100%, 100% 0%; } 100%{ background-position: 0% 0%, 100% 0%, 0% 100%; } } </style>
+    <link rel="stylesheet" href="css/site.css">
+    
 </head>
-<body class="font-inter text-charcoal-gray ">
-    <!-- Header -->
-    <header class="fixed top-0 left-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-gray-100">
-        <div class="container mx-auto px-4">
-            <div class="relative flex items-center justify-between py-4">
-                <div class="px-4">
-                    <a href="index.html" class="text-2xl font-bold text-mint-green">
-                        Bamboo Flags
-                    </a>
-                </div>
-                
-                <div class="flex items-center lg:hidden">
-                    <button class="mobile-menu-button p-2">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
-                    </button>
-                </div>
-                
-                <nav class="hidden lg:flex">
-                    <ul class="flex space-x-8">
-                        <li class="relative group">
-                            <a href="index.html#services" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium flex items-center">
-                                Services
-                                <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                                </svg>
-                            </a>
-                            <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                                <div class="py-2">
-                                    <a href="web-development.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sky-blue/10 hover:text-sky-blue transition-colors">
-                                        <div class="font-medium">Web Development</div>
-                                        <div class="text-sm text-gray-500">Fast, beautiful websites</div>
-                                    </a>
-                                    <a href="process-optimization.html" class="block px-4 py-3 text-charcoal-gray hover:bg-sunshine-yellow/10 hover:text-sunshine-yellow transition-colors">
-                                        <div class="font-medium">Process Optimization</div>
-                                        <div class="text-sm text-gray-500">Streamline your workflows</div>
-                                    </a>
-                                    <a href="automation.html" class="block px-4 py-3 text-charcoal-gray hover:bg-mint-green/10 hover:text-mint-green transition-colors">
-                                        <div class="font-medium">Automation Services</div>
-                                        <div class="text-sm text-gray-500">Connect tools & eliminate tasks</div>
-                                    </a>
-                                    <a href="ai-solutions.html" class="block px-4 py-3 text-charcoal-gray hover:bg-lavender-purple/10 hover:text-lavender-purple transition-colors">
-                                        <div class="font-medium">AI Solutions</div>
-                                        <div class="text-sm text-gray-500">Smart assistants & insights</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="index.html#approach" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Approach</a></li>
-                        <li><a href="about.html" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">About</a></li>
-                        <li><a href="blog.html" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Blog</a></li>
-                        <li><a href="index.html#contact" class="text-charcoal-gray hover:text-bubblegum-pink transition-colors font-medium">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <!-- Mobile menu -->
-                <div class="mobile-menu hidden absolute top-full left-0 w-full bg-white shadow-lg lg:hidden">
-                    <ul class="flex flex-col py-4">
-                        <li><a href="index.html#services" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Services</a></li>
-                        <li><a href="index.html#approach" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Approach</a></li>
-                        <li><a href="about.html" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">About</a></li>
-                        <li><a href="blog.html" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Blog</a></li>
-                        <li><a href="index.html#contact" class="block px-4 py-2 text-charcoal-gray hover:bg-mint-green/20">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+<body class="bg-page-glow min-h-screen font-sans text-ink">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 btn btn-secondary bg-bg">Skip to content</a>
+<header class="relative z-40 mx-auto max-w-page px-gutter">
+    <div class="flex h-[68px] items-center gap-8">
+        <a href="index.html" class="flex items-center gap-2.5 text-[16px] font-medium tracking-[-0.01em] text-ink no-underline">
+            <span class="flex flex-col gap-0.5" aria-hidden="true"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+            Bamboo Flags
+        </a>
 
-    <!-- Hero Section -->
-    <section class="relative pt-20 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-mint-green/10 to-white overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-sunshine-yellow/10 to-transparent"></div>
-        <div class="container mx-auto px-4 relative z-10">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl lg:text-6xl font-bold text-charcoal-gray mb-6 leading-tight">
-                    <span class="text-mint-green">Automation Services</span><br>
-                    That Actually Work
-                </h1>
-                <p class="text-xl lg:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                    Connect your existing tools and eliminate repetitive tasks. Get working prototypes in just 2 weeks that save hours every day.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 bg-mint-green text-white font-semibold rounded-lg hover:bg-mint-green/90 transform hover:-translate-y-1 transition-all duration-200 shadow-lg">
-                        Start Your Automation
+        <!-- Desktop nav (≥900px) -->
+        <nav aria-label="Main" class="ml-auto hidden items-center gap-7 text-[14px] min-[900px]:flex">
+            <div class="relative" data-dropdown>
+                <button type="button" class="nav-link flex items-center gap-1 py-1.5" aria-expanded="false" aria-haspopup="true" aria-controls="services-menu" data-dropdown-trigger data-current="true">
+                    Services
+                    <svg class="caret" width="12" height="12" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                </button>
+                <div id="services-menu" class="absolute -left-5 top-[calc(100%+12px)] hidden w-[380px] flex-col rounded-lg border border-line bg-surface p-2 shadow-lg" data-dropdown-panel>
+                    <a href="web-development.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">01</span><span class="text-[15px]">Web Development</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Sites and internal tools that plug into how you work.</span>
                     </a>
-                    <a href="#how-it-works" class="inline-flex items-center justify-center px-8 py-4 border-2 border-charcoal-gray text-charcoal-gray font-semibold rounded-lg hover:bg-charcoal-gray hover:text-white transition-all duration-200">
-                        See How It Works
+                    <a href="process-optimization.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">02</span><span class="text-[15px]">Process Optimization</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Map the workflow, remove the waste.</span>
+                    </a>
+                    <a href="automation.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">03</span><span class="text-[15px]">Automation Services</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Hand repetitive tasks to reliable systems.</span>
+                    </a>
+                    <a href="ai-solutions.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">04</span><span class="text-[15px]">AI Solutions</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Practical AI where it earns its place.</span>
                     </a>
                 </div>
             </div>
+            <a href="index.html#approach" class="nav-link">Approach</a>
+            <a href="index.html#pricing" class="nav-link">Pricing</a>
+            <a href="blog.html" class="nav-link" >Blog</a>
+            <a href="about.html" class="nav-link" >About</a>
+            <a href="index.html#book" class="btn btn-primary">Book a free call</a>
+        </nav>
+
+        <!-- Mobile toggle (<900px) -->
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle>Menu</button>
+    </div>
+
+    <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
+        <span class="label-caps pb-1.5 pt-3.5 text-ink-subtle">Services</span>
+        <a href="web-development.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">01</span>Web Development</a>
+        <a href="process-optimization.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">02</span>Process Optimization</a>
+        <a href="automation.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">03</span>Automation Services</a>
+        <a href="ai-solutions.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">04</span>AI Solutions</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <a href="index.html#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
+        <a href="index.html#pricing" class="py-3 text-[17px] text-ink no-underline">Pricing</a>
+        <a href="blog.html" class="py-3 text-[17px] text-ink no-underline" >Blog</a>
+        <a href="about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <a href="index.html#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
+    </nav>
+
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-x-6 gap-y-1 py-3 label-caps text-ink-subtle">
+        <span>Custom automation &amp; AI for growing businesses</span><span>Discover · Design · Deliver · Drive</span>
+    </div>
+</header>
+
+
+<main id="main">
+<!-- SERVICE HERO -->
+<section aria-labelledby="h1" class="mx-auto max-w-page px-gutter pb-section pt-[clamp(24px,4vw,40px)]">
+    <nav aria-label="Breadcrumb" class="flex gap-2 pb-[clamp(28px,4vw,48px)] text-meta text-ink-subtle">
+        <a href="index.html" class="text-ink-muted no-underline hover:text-accent-ink">Home</a><span aria-hidden="true">/</span><a href="index.html#services" class="text-ink-muted no-underline hover:text-accent-ink">Services</a><span aria-hidden="true">/</span><span aria-current="page" class="text-ink">Automation Services</span>
+    </nav>
+    <div class="flex flex-wrap items-start gap-[clamp(40px,6vw,96px)]">
+        <div class="flex min-w-0 flex-[7_1_440px] flex-col gap-6">
+            <span class="label-caps tnum flex items-center gap-3 text-accent"><span aria-hidden="true" class="flex items-end gap-[3px]"><span class="w-[3px] bg-accent" style="height:8px"></span><span class="w-[3px] bg-accent" style="height:12px"></span><span class="w-[3px] bg-accent" style="height:16px"></span><span class="w-[3px] bg-line-strong" style="height:20px"></span></span>Service 03 of 04</span>
+            <h1 id="h1" class="m-0 -ml-[0.04em] text-[clamp(40px,6.4vw,80px)] font-medium leading-[1.02] tracking-[-0.035em]">Automation Services<span class="text-accent">.</span></h1>
+            <p class="m-0 max-w-[34em] text-[clamp(17px,1.6vw,20px)] leading-[1.6] text-ink-muted">We hand the repetitive parts of your week — data entry, handovers, reminders, reports — to systems that run every time.</p>
+            <div class="flex flex-wrap gap-3 pt-1">
+                <a href="index.html#book" class="btn btn-primary btn-lg">Book a free 45-minute call</a>
+                <a href="#cases" class="btn btn-ghost btn-lg px-4">See case studies</a>
+            </div>
         </div>
+        <nav aria-label="On this page" class="flex flex-[3_1_240px] flex-col pt-2">
+            <span class="label-caps pb-2.5 text-accent">On this page</span>
+            <a href="#what" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">01</span><span class="flex-1 text-[16px]">What we do</span><span aria-hidden="true" class="text-[#9397ab]">↓</span></a>
+            <a href="#how" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">02</span><span class="flex-1 text-[16px]">How we build it</span><span aria-hidden="true" class="text-[#9397ab]">↓</span></a>
+            <a href="#cases" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">03</span><span class="flex-1 text-[16px]">Case studies</span><span aria-hidden="true" class="text-[#9397ab]">↓</span></a>
+            <a href="#book" class="flex items-baseline gap-3.5 border-t border-line py-3 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">04</span><span class="flex-1 text-[16px]">Book a call</span><span aria-hidden="true" class="text-[#9397ab]">↓</span></a>
+            <div class="border-t border-line"></div>
+        </nav>
+    </div>
+</section>
+
+<!-- WHAT WE DO -->
+<section id="what" aria-labelledby="h-what" class="mx-auto max-w-page px-gutter py-[clamp(56px,8vw,96px)]">
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(32px,4vw,48px)]">
+        <span class="kicker">01 — What we do</span>
+        <h2 id="h-what" class="m-0 text-h2 font-medium">The tasks your team repeats, handled by systems.</h2>
+    </div>
+    <div class="grid grid-cols-1 gap-x-[clamp(24px,4vw,64px)] min-[800px]:grid-cols-2">
         
-        <!-- Background decorations -->
-        <div class="absolute top-0 right-0 -mr-40 -mt-10 lg:-mr-20">
-            <div class="w-80 h-80 rounded-full bg-gradient-to-br from-mint-green/20 to-sunshine-yellow/20 blur-3xl"></div>
+        <div class="grid grid-cols-[40px_minmax(0,1fr)] gap-x-3 gap-y-1.5 border-t border-line py-6">
+            <span class="tnum pt-1.5 text-meta text-accent">01</span>
+            <h3 class="m-0 text-[22px] font-medium tracking-[-0.01em]">Connect your tools</h3>
+            <span></span>
+            <p class="m-0 max-w-[34em] text-[16px] leading-[1.6] text-ink-muted">Move data between the apps you already use so nobody copies it by hand.</p>
         </div>
-        <div class="absolute bottom-0 left-0 -ml-40 -mb-10 lg:-ml-20">
-            <div class="w-80 h-80 rounded-full bg-gradient-to-tr from-sunshine-yellow/20 to-mint-green/20 blur-3xl"></div>
+        <div class="grid grid-cols-[40px_minmax(0,1fr)] gap-x-3 gap-y-1.5 border-t border-line py-6">
+            <span class="tnum pt-1.5 text-meta text-accent">02</span>
+            <h3 class="m-0 text-[22px] font-medium tracking-[-0.01em]">Automate handovers</h3>
+            <span></span>
+            <p class="m-0 max-w-[34em] text-[16px] leading-[1.6] text-ink-muted">When one step finishes, the next starts: tasks, notifications, approvals.</p>
         </div>
-    </section>
-
-    <!-- What We Do Section -->
-    <section class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-                <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
-                    <h3 class="text-2xl font-bold text-mint-green mb-6">What We Automate</h3>
-                    <p class="text-gray-600 leading-relaxed text-lg">
-                        Repetitive data entry, file transfers, email notifications, report generation, form processing, customer onboarding, inventory updates, and any task you find yourself doing over and over.
-                    </p>
-                </div>
-                <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
-                    <h3 class="text-2xl font-bold text-mint-green mb-6">Your Tools, Connected</h3>
-                    <p class="text-gray-600 leading-relaxed text-lg">
-                        We work with what you already use - Gmail, Slack, Excel, Shopify, HubSpot, Airtable, Google Sheets, and hundreds of other popular business tools. No need to change your workflow.
-                    </p>
-                </div>
-            </div>
+        <div class="grid grid-cols-[40px_minmax(0,1fr)] gap-x-3 gap-y-1.5 border-t border-line py-6">
+            <span class="tnum pt-1.5 text-meta text-accent">03</span>
+            <h3 class="m-0 text-[22px] font-medium tracking-[-0.01em]">Scheduled reports</h3>
+            <span></span>
+            <p class="m-0 max-w-[34em] text-[16px] leading-[1.6] text-ink-muted">Reports assembled from live data and sent on schedule.</p>
         </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="py-16 lg:py-24 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">How We Build Your Automation</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-mint-green text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Map Your Process</h3>
-                    <p class="text-gray-600 leading-relaxed">We watch how you currently work and identify the most time-consuming repetitive tasks that can be automated.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-mint-green text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Design the Flow</h3>
-                    <p class="text-gray-600 leading-relaxed">Create a simple automation blueprint showing exactly what will happen when, with your approval at every step.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-mint-green text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Build & Test</h3>
-                    <p class="text-gray-600 leading-relaxed">Develop your automation using reliable tools and test it thoroughly with real data to ensure it works perfectly.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-mint-green text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
-                    <h3 class="text-xl font-bold text-charcoal-gray mb-3">Train & Support</h3>
-                    <p class="text-gray-600 leading-relaxed">Show your team how it works, provide simple documentation, and offer ongoing support to keep everything running smoothly.</p>
-                </div>
-            </div>
+        <div class="grid grid-cols-[40px_minmax(0,1fr)] gap-x-3 gap-y-1.5 border-t border-line py-6">
+            <span class="tnum pt-1.5 text-meta text-accent">04</span>
+            <h3 class="m-0 text-[22px] font-medium tracking-[-0.01em]">Monitoring &amp; logs</h3>
+            <span></span>
+            <p class="m-0 max-w-[34em] text-[16px] leading-[1.6] text-ink-muted">Every run is logged. When something needs a person, the right person is told.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Success Stories Section -->
-    <section class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Real Automation Success Stories</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
-                    <div class="mb-6 flex justify-center">
-                        <div class="w-12 h-12 rounded-full border border-gray-300 text-charcoal-gray flex items-center justify-center text-lg font-medium">1</div>
-                    </div>
-                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Product Data Migration Automation</h3>
-                    <div class="space-y-4 text-gray-600">
-                        <p><strong class="text-charcoal-gray">Challenge:</strong> A mid-sized retailer needed to migrate thousands of product listings from an old system to a new e-commerce platform, ensuring accuracy and category compliance.</p>
-                        <p><strong class="text-charcoal-gray">Solution:</strong> Created a set of automated scripts to clean, transform, and import product data while validating fields against business rules.</p>
-                        <p><strong class="text-mint-green">Result:</strong> Reduced migration time from weeks to just two days, eliminated manual errors, and ensured all products met the new platform's standards.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
-                    <div class="mb-6 flex justify-center">
-                        <div class="w-12 h-12 rounded-full border border-gray-300 text-charcoal-gray flex items-center justify-center text-lg font-medium">2</div>
-                    </div>
-                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Jira Process Automation</h3>
-                    <div class="space-y-4 text-gray-600">
-                        <p><strong class="text-charcoal-gray">Challenge:</strong> A large OEM faced inefficiencies managing complex Jira workflows, with teams spending hours each week on repetitive ticket updates, status changes, and reporting.</p>
-                        <p><strong class="text-charcoal-gray">Solution:</strong> Developed a suite of Python scripts to automate Jira tasks, including ticket creation, status transitions, custom field updates, and automated reporting.</p>
-                        <p><strong class="text-mint-green">Result:</strong> Saved 8 hours weekly per team, reduced manual errors, and ensured faster, more consistent project tracking.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
-                    <div class="mb-6 flex justify-center">
-                        <div class="w-12 h-12 rounded-full border border-gray-300 text-charcoal-gray flex items-center justify-center text-lg font-medium">3</div>
-                    </div>
-                    <h3 class="text-xl font-bold text-midnight-navy mb-4">Graphic Package Production Automation</h3>
-                    <div class="space-y-4 text-gray-600">
-                        <p><strong class="text-charcoal-gray">Challenge:</strong> A startup needed to produce hundreds of graphic packages, each with precise formatting and packaging parameters, which was time-consuming and error-prone when done manually.</p>
-                        <p><strong class="text-charcoal-gray">Solution:</strong> Built custom automations to generate, package, and update these graphic assets according to exact specifications.</p>
-                        <p><strong class="text-mint-green">Result:</strong> Significantly reduced production time, streamlined updates, and ensured consistent quality across all packages.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
-                    <div class="mb-6 flex justify-center">
-                        <div class="w-12 h-12 rounded-full border border-gray-300 text-charcoal-gray flex items-center justify-center text-lg font-medium">4</div>
-                    </div>
-                    <h3 class="text-xl font-bold text-midnight-navy mb-4">International Sales Accounting Automation</h3>
-                    <div class="space-y-4 text-gray-600">
-                        <p><strong class="text-charcoal-gray">Challenge:</strong> A small company faced challenges managing accounting for international sales, dealing with multiple currencies, tax rules, and manual data entry.</p>
-                        <p><strong class="text-charcoal-gray">Solution:</strong> Implemented automated scripts to import sales data, convert currencies, apply correct tax rates, and generate accounting reports.</p>
-                        <p><strong class="text-mint-green">Result:</strong> Reduced accounting workload by several hours weekly, minimized errors, and ensured compliance with international tax regulations.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Automation Packages</h2>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
-                <!-- Card 1: Quick Win -->
-                <div class="bg-gradient-to-br from-coral-orange/10 to-coral-orange/5 rounded-2xl p-8 shadow-lg border border-coral-orange/20 hover:shadow-xl hover:border-coral-orange/40 transition-all duration-300 relative">
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4">Quick Win</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">Single automation workflow</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">Automate one high-impact repetitive task to save time immediately.</p>
-                    <div class="text-2xl font-bold text-coral-orange mb-6 text-center">From €3,000</div>
-                    <ul class="space-y-3">
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>One specific process automated</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>2-week delivery</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Basic training included</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>30-day support</li>
-                    </ul>
-                </div>
-                
-                <!-- Card 2: Department Boost -->
-                <div class="bg-gradient-to-br from-bubblegum-pink/10 to-bubblegum-pink/5 rounded-2xl p-8 shadow-xl border-2 border-bubblegum-pink/30 transform scale-105 hover:shadow-2xl hover:border-bubblegum-pink/50 transition-all duration-300 relative">
-                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2"><div class="bg-bubblegum-pink text-white text-sm font-bold py-2 px-6 rounded-full shadow-md">Most Popular</div></div>
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4 mt-4">Department Boost</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">3–5 connected automations</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">Connect multiple workflows across your tools to scale efficiency.</p>
-                    <div class="text-2xl font-bold text-bubblegum-pink mb-6 text-center">From €12,000</div>
-                    <ul class="space-y-3">
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Multiple workflows connected</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>4-week delivery</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Team training sessions</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>3-month support</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Performance monitoring</li>
-                    </ul>
-                </div>
-                
-                <!-- Card 3: Company Transform -->
-                <div class="bg-gradient-to-br from-lavender-purple/10 to-lavender-purple/5 rounded-2xl p-8 shadow-lg border border-lavender-purple/20 hover:shadow-xl hover:border-lavender-purple/40 transition-all duration-300 relative">
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-4">Company Transform</h3>
-                    <h4 class="text-lg font-semibold text-charcoal-gray mb-4">Enterprise-wide automation</h4>
-                    <p class="text-gray-600 mb-6 leading-relaxed">A comprehensive automation program with phased rollout and ongoing optimization.</p>
-                    <div class="text-2xl font-bold text-lavender-purple mb-6 text-center">Custom Quote</div>
-                    <ul class="space-y-3">
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Comprehensive workflow audit</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Phased implementation</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Advanced integrations</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Ongoing optimization</li>
-                        <li class="flex items-center text-gray-600"><span class="w-4 h-4 bg-mint-green rounded-full mr-3 flex-shrink-0 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></span>Dedicated support team</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Single CTA Button -->
-            <div class="text-center">
-                <a href="#contact" class="inline-block bg-bubblegum-pink text-white font-semibold py-4 px-8 rounded-lg hover:bg-bubblegum-pink/90 transform hover:-translate-y-1 transition-all duration-200 shadow-lg hover:shadow-xl">
-                    Book My Free 45-Minute Call
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-bold text-charcoal-gray mb-4">Ready to Save Hours Every Week?</h2>
-            </div>
-            
-            <div class="max-w-6xl mx-auto text-center mb-4">
-                <div>
-                    <h3 class="text-2xl font-bold text-charcoal-gray mb-6">Get Your Free Automation Assessment</h3>
-                    <p class="text-lg text-gray-600 leading-relaxed">
-                        Tell us about your repetitive tasks and we'll show you exactly how automation can help. No obligation, just practical insights you can use right away.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Cal inline embed code begins -->
-            <div style="width:100%;height:800px;overflow:auto" id="my-cal-inline-free-45-min-consultation"></div>
-            <script type="text/javascript">
-              (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-            Cal("init", "free-45-min-consultation", {origin:"https://app.cal.com"});
-
-              Cal.ns["free-45-min-consultation"]("inline", {
-                elementOrSelector:"#my-cal-inline-free-45-min-consultation",
-                config: {"layout":"month_view"},
-                calLink: "bambooflags/free-45-min-consultation",
-              });
-
-              Cal.ns["free-45-min-consultation"]("ui", {"hideEventTypeDetails":false,"layout":"month_view","branding":{"brandColor":"#000000","hideBranding":true}});
-              </script>
-              <!-- Cal inline embed code ends -->
-        </div>
-    </section>
-
-
-
-
-    <!-- Footer -->
-    <footer class="bg-midnight-navy text-white py-16">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Bamboo Flags</h4>
-                    <p class="text-gray-400">Custom automation. Crafted for you.</p>
-                </div>
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Services</h4>
-                    <ul class="space-y-2">
-                        <li><a href="web-development.html" class="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
-                        <li><a href="process-optimization.html" class="text-gray-400 hover:text-white transition-colors">Process Optimization</a></li>
-                        <li><a href="automation.html" class="text-gray-400 hover:text-white transition-colors">Automation</a></li>
-                        <li><a href="ai-solutions.html" class="text-gray-400 hover:text-white transition-colors">AI Solutions</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Company</h4>
-                    <ul class="space-y-2">
-                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
-                        <li><a href="careers.html" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 pt-8 text-center">
-                <p class="text-gray-400">&copy; 2026 Bamboo Flags. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
-            document.querySelector('.mobile-menu').classList.toggle('hidden');
-        });
+<!-- HOW WE BUILD IT -->
+<section id="how" aria-labelledby="h-how" class="mx-auto max-w-page px-gutter py-[clamp(56px,8vw,96px)]">
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(40px,5vw,56px)]">
+        <span class="kicker">02 — How we build it</span>
+        <h2 id="h-how" class="m-0 text-h2 font-medium">Four steps, each one signed off before the next.</h2>
+    </div>
+    <ol class="m-0 grid list-none grid-cols-1 gap-x-6 p-0 min-[600px]:grid-cols-2 min-[1100px]:grid-cols-4">
         
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-accent"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">Step 01</span>
+            <h3 class="m-0 text-[clamp(24px,2.6vw,30px)] font-medium tracking-[-0.02em]">Map the task</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">We look at how the task is done today and note every exception.</p>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#796cbf]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">Step 02</span>
+            <h3 class="m-0 text-[clamp(24px,2.6vw,30px)] font-medium tracking-[-0.02em]">Design the flow</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">Architecture and a prototype you can try on real examples.</p>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#5d5294]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">Step 03</span>
+            <h3 class="m-0 text-[clamp(24px,2.6vw,30px)] font-medium tracking-[-0.02em]">Build &amp; test</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">Built on tools that fit your stack, tested against your edge cases.</p>
+        </li>
+        <li class="flex flex-col gap-3.5 pb-9">
+            <span aria-hidden="true" class="flex items-center gap-2"><span class="box-border h-3 w-3 flex-none rounded-full border-2 border-accent"></span><span class="h-[3px] flex-1 bg-[#423a6a]"></span></span>
+            <span class="tnum text-meta tracking-[0.04em] text-accent-ink">Step 04</span>
+            <h3 class="m-0 text-[clamp(24px,2.6vw,30px)] font-medium tracking-[-0.02em]">Hand over &amp; improve</h3>
+            <p class="m-0 text-[16px] leading-[1.55] text-ink-muted">Training and documentation for your team, then continuous improvement.</p>
+        </li>
+    </ol>
+</section>
+
+<!-- CASE STUDIES (placeholder content until real, client-approved cases exist) -->
+<section id="cases" aria-labelledby="h-cases" class="mx-auto max-w-page px-gutter py-[clamp(56px,8vw,96px)]">
+    <div class="flex max-w-[44em] flex-col gap-3.5 pb-[clamp(32px,4vw,48px)]">
+        <span class="kicker">03 — Case studies</span>
+        <h2 id="h-cases" class="m-0 text-h2 font-medium">Challenge, solution, result.</h2>
+    </div>
+    <div class="flex flex-col gap-4">
+        <article class="fill-surface-60 flex flex-col gap-6 rounded-lg border border-line p-[clamp(20px,3vw,32px)]">
+            <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
+                <h3 class="m-0 text-[clamp(22px,2.4vw,28px)] font-medium tracking-[-0.02em]">[Case study title — client sector]</h3>
+                <span class="tag tag-neutral">Placeholder content</span>
+            </div>
+            <div class="grid grid-cols-1 gap-6 min-[900px]:grid-cols-3">
+                <div class="flex flex-col gap-2 border-t border-line-strong pt-3.5"><span class="label-caps text-ink-subtle">Challenge</span><p class="m-0 text-small text-ink-muted">What was slow, manual or error-prone — in the client's words.</p></div>
+                <div class="flex flex-col gap-2 border-t border-line-strong pt-3.5"><span class="label-caps text-ink-subtle">Solution</span><p class="m-0 text-small text-ink-muted">What we built and how it fits into the existing tools.</p></div>
+                <div class="flex flex-col gap-2 border-t-2 border-accent pt-3.5"><span class="label-caps text-accent-ink">Result</span><p class="m-0 text-body leading-[1.5]">The verified outcome. Only real, client-approved figures.</p></div>
+            </div>
+        </article>
+        <article class="fill-surface-60 flex flex-col gap-6 rounded-lg border border-line p-[clamp(20px,3vw,32px)]">
+            <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
+                <h3 class="m-0 text-[clamp(22px,2.4vw,28px)] font-medium tracking-[-0.02em]">[Second case study title]</h3>
+                <span class="tag tag-neutral">Placeholder content</span>
+            </div>
+            <div class="grid grid-cols-1 gap-6 min-[900px]:grid-cols-3">
+                <div class="flex flex-col gap-2 border-t border-line-strong pt-3.5"><span class="label-caps text-ink-subtle">Challenge</span><p class="m-0 text-small text-ink-muted">What was slow, manual or error-prone — in the client's words.</p></div>
+                <div class="flex flex-col gap-2 border-t border-line-strong pt-3.5"><span class="label-caps text-ink-subtle">Solution</span><p class="m-0 text-small text-ink-muted">What we built and how it fits into the existing tools.</p></div>
+                <div class="flex flex-col gap-2 border-t-2 border-accent pt-3.5"><span class="label-caps text-accent-ink">Result</span><p class="m-0 text-body leading-[1.5]">The verified outcome. Only real, client-approved figures.</p></div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- OFTEN COMBINED WITH -->
+<section aria-labelledby="h-other" class="mx-auto max-w-page px-gutter pb-[clamp(56px,8vw,96px)] pt-[clamp(24px,4vw,48px)]">
+    <h2 id="h-other" class="label-caps m-0 mb-4 font-normal text-ink-subtle">Often combined with</h2>
+    <div class="grid grid-cols-1 gap-x-6 min-[900px]:grid-cols-3">
         
-        
-    </script>
+        <a href="web-development.html" class="flex items-baseline gap-3.5 border-t border-line py-4 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">01</span><span class="flex-1 text-[18px]">Web Development</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+        <a href="process-optimization.html" class="flex items-baseline gap-3.5 border-t border-line py-4 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">02</span><span class="flex-1 text-[18px]">Process Optimization</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+        <a href="ai-solutions.html" class="flex items-baseline gap-3.5 border-t border-line py-4 text-ink no-underline transition-colors duration-200 hover:text-accent-ink"><span class="tnum text-meta text-accent">04</span><span class="flex-1 text-[18px]">AI Solutions</span><span aria-hidden="true" class="text-[#9397ab]">→</span></a>
+    </div>
+</section>
+
+<div id="book" class="scroll-mt-4">
+<section aria-labelledby="h-cta" class="fill-section ">
+    <div class="mx-auto flex max-w-page flex-wrap items-center justify-between gap-x-12 gap-y-6 px-gutter py-[clamp(56px,8vw,96px)]">
+        <div class="flex flex-[1_1_360px] flex-col gap-3">
+            <h2 id="h-cta" class="m-0 text-[clamp(28px,3.6vw,44px)] font-medium leading-[1.08] tracking-[-0.025em] text-[#e9e9ed]">Bring us your list of repetitive tasks.</h2>
+            <p class="m-0 max-w-[34em] text-body text-[#e4e7f5]">A free 45-minute call. Bring the tasks; leave with a clear next step.</p>
+        </div>
+        <a href="index.html#book" class="btn btn-band">Book a free 45-minute call</a>
+    </div>
+</section>
+
+</div>
+
+</main>
+
+<footer class="mx-auto flex max-w-page flex-col gap-12 px-gutter pb-8 pt-[clamp(48px,6vw,72px)] text-ink">
+    <div class="flex flex-wrap gap-x-16 gap-y-10">
+        <div class="flex flex-[2_1_260px] flex-col gap-3.5">
+            <span class="flex items-center gap-2.5 text-[16px] font-medium">
+                <span aria-hidden="true" class="flex flex-col gap-0.5"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+                Bamboo Flags
+            </span>
+            <p class="m-0 max-w-[28em] text-[14px] leading-[1.6] text-ink-subtle">Custom automation and AI for growing businesses.</p>
+        </div>
+        <nav aria-label="Services" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Services</span>
+            <a href="web-development.html" class="text-ink-muted no-underline hover:text-accent-ink">Web Development</a>
+            <a href="process-optimization.html" class="text-ink-muted no-underline hover:text-accent-ink">Process Optimization</a>
+            <a href="automation.html" class="text-ink-muted no-underline hover:text-accent-ink">Automation Services</a>
+            <a href="ai-solutions.html" class="text-ink-muted no-underline hover:text-accent-ink">AI Solutions</a>
+        </nav>
+        <nav aria-label="Company" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Company</span>
+            <a href="about.html" class="text-ink-muted no-underline hover:text-accent-ink">About</a>
+            <a href="blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a>
+            <a href="careers.html" class="text-ink-muted no-underline hover:text-accent-ink">Careers</a>
+            <a href="index.html#book" class="text-ink-muted no-underline hover:text-accent-ink">Book a call</a>
+        </nav>
+    </div>
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-3 text-meta text-ink-subtle">
+        <span>© 2026 Bamboo Flags</span>
+        <span class="flex gap-5"><a href="privacy.html" class="text-ink-muted no-underline hover:text-accent-ink">Privacy</a><a href="terms.html" class="text-ink-muted no-underline hover:text-accent-ink">Terms</a></span>
+    </div>
+</footer>
+
+
+<script src="js/site.js" defer></script>
+
 </body>
 </html>
