@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#161826">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69WG47KQK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Q69WG47KQK');
+    </script>
+    <title>Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check — Bamboo Flags</title>
+    <meta name="description" content="On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.">
+        <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check — Bamboo Flags">
+    <meta property="og:description" content="On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.">
+    <meta property="og:url" content="https://bambooflags.com/blog/apple-full-disk-access-ai-agents.html">
+    <meta property="og:image" content="https://bambooflags.com/og-image.png">
+    <meta property="og:site_name" content="Bamboo Flags">
+    <meta property="article:published_time" content="2026-10-05">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check — Bamboo Flags">
+    <meta name="twitter:description" content="On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.">
+    <meta name="twitter:image" content="https://bambooflags.com/og-image.png">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://bambooflags.com/blog/apple-full-disk-access-ai-agents.html">
+    <!-- Structured Data -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bamboo Flags","url":"https://bambooflags.com","description":"Automation & AI Solutions for Growing Businesses","sameAs":[]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check — Bamboo Flags","description":"On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.","datePublished":"2026-10-05","author":{"@type":"Organization","name":"Bamboo Flags"},"publisher":{"@type":"Organization","name":"Bamboo Flags"},"url":"https://bambooflags.com/blog/apple-full-disk-access-ai-agents.html"}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { extend: {
+                fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                colors: {
+                    bg: 'var(--bf-bg)', surface: 'var(--bf-surface)', 'surface-2': 'var(--bf-surface-2)',
+                    ink: { DEFAULT: 'var(--bf-ink)', muted: 'var(--bf-ink-muted)', subtle: 'var(--bf-ink-subtle)' },
+                    line: { DEFAULT: 'var(--bf-line)', strong: 'var(--bf-line-strong)' },
+                    accent: { DEFAULT: 'var(--bf-accent)', ink: 'var(--bf-accent-ink)', tint: 'var(--bf-accent-tint)', line: 'var(--bf-accent-line)' },
+                    section: { DEFAULT: '#262a60', glow: '#353b80' }
+                },
+                fontSize: {
+                    display: ['clamp(44px,8.6vw,112px)', { lineHeight: '1', letterSpacing: '-0.04em' }],
+                    h1: ['clamp(40px,6vw,72px)', { lineHeight: '1.02', letterSpacing: '-0.035em' }],
+                    h2: ['clamp(30px,4vw,48px)', { lineHeight: '1.1', letterSpacing: '-0.025em' }],
+                    h3: ['clamp(22px,2.6vw,36px)', { lineHeight: '1.2', letterSpacing: '-0.02em' }],
+                    lead: ['19px', '1.6'], article: ['18px', '1.7'], body: ['17px', '1.6'],
+                    small: ['15px', '1.55'], meta: ['13px', '1.5'], kicker: ['12px', { lineHeight: '1.4', letterSpacing: '0.08em' }]
+                },
+                borderRadius: { sm: '4px', md: '8px', lg: '14px' },
+                maxWidth: { page: '1280px', measure: '720px' },
+                spacing: { gutter: 'clamp(20px,5vw,72px)', section: 'clamp(64px,9vw,112px)' },
+                boxShadow: {
+                    sm: '0 0 0 1px #3f424d',
+                    md: '0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,.55)',
+                    lg: '0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,.65)'
+                }
+            } }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/site.css">
+    
+</head>
+<body class="bg-page-flat min-h-screen font-sans text-ink">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 btn btn-secondary bg-bg">Skip to content</a>
+<header class="relative z-40 mx-auto max-w-page px-gutter">
+    <div class="flex h-[68px] items-center gap-8">
+        <a href="../index.html" class="flex items-center gap-2.5 text-[16px] font-medium tracking-[-0.01em] text-ink no-underline">
+            <span class="flex flex-col gap-0.5" aria-hidden="true"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+            Bamboo Flags
+        </a>
+
+        <!-- Desktop nav (≥900px) -->
+        <nav aria-label="Main" class="ml-auto hidden items-center gap-7 text-[14px] min-[900px]:flex">
+            <div class="relative" data-dropdown>
+                <button type="button" class="nav-link flex items-center gap-1 py-1.5" aria-expanded="false" aria-haspopup="true" aria-controls="services-menu" data-dropdown-trigger >
+                    Services
+                    <svg class="caret" width="12" height="12" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                </button>
+                <div id="services-menu" class="absolute -left-5 top-[calc(100%+12px)] hidden w-[380px] flex-col rounded-lg border border-line bg-surface p-2 shadow-lg" data-dropdown-panel>
+                    <a href="../web-development.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">01</span><span class="text-[15px]">Web Development</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Sites and internal tools that plug into how you work.</span>
+                    </a>
+                    <a href="../process-optimization.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">02</span><span class="text-[15px]">Process Optimization</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Map the workflow, remove the waste.</span>
+                    </a>
+                    <a href="../automation.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">03</span><span class="text-[15px]">Automation Services</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Hand repetitive tasks to reliable systems.</span>
+                    </a>
+                    <a href="../ai-solutions.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">04</span><span class="text-[15px]">AI Solutions</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Practical AI where it earns its place.</span>
+                    </a>
+                </div>
+            </div>
+            <a href="../index.html#approach" class="nav-link">Approach</a>
+            <a href="../index.html#pricing" class="nav-link">Pricing</a>
+            <a href="../blog.html" class="nav-link" aria-current="page">Blog</a>
+            <a href="../about.html" class="nav-link" >About</a>
+            <a href="../index.html#book" class="btn btn-primary">Book a free call</a>
+        </nav>
+
+        <!-- Mobile toggle (<900px) -->
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle>Menu</button>
+    </div>
+
+    <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
+        <span class="label-caps pb-1.5 pt-3.5 text-ink-subtle">Services</span>
+        <a href="../web-development.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">01</span>Web Development</a>
+        <a href="../process-optimization.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">02</span>Process Optimization</a>
+        <a href="../automation.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">03</span>Automation Services</a>
+        <a href="../ai-solutions.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">04</span>AI Solutions</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <a href="../index.html#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
+        <a href="../index.html#pricing" class="py-3 text-[17px] text-ink no-underline">Pricing</a>
+        <a href="../blog.html" class="py-3 text-[17px] text-ink no-underline" aria-current="page">Blog</a>
+        <a href="../about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <a href="../index.html#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
+    </nav>
+
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-x-6 gap-y-1 py-3 label-caps text-ink-subtle">
+        <span>Custom automation &amp; AI for growing businesses</span><span>Discover · Design · Deliver · Drive</span>
+    </div>
+</header>
+
+
+<main id="main">
+<div class="read-progress" aria-hidden="true"><span data-read-progress></span></div>
+<article class="mx-auto max-w-page px-gutter pb-[clamp(56px,8vw,96px)] pt-[clamp(32px,5vw,56px)]">
+    <header class="mx-auto flex max-w-measure flex-col gap-[18px] border-b border-line pb-[clamp(28px,4vw,40px)]">
+        <nav aria-label="Breadcrumb" class="flex gap-2 text-meta text-ink-subtle"><a href="../blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a><span aria-hidden="true">/</span><span>AI</span></nav>
+        <h1 class="m-0 text-[clamp(34px,5vw,56px)] font-medium leading-[1.08] tracking-[-0.03em]">Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check</h1>
+        <p class="m-0 text-[clamp(18px,1.8vw,21px)] leading-[1.5] text-ink-muted">On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.</p>
+        <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-[14px] text-ink-subtle"><span>Bamboo Flags</span><time datetime="2026-10-05">5 Oct 2026</time><span>3 min read</span></div>
+    </header>
+    <div class="prose-bf mx-auto max-w-measure pt-[clamp(28px,4vw,40px)]">
+<p>On 2 October 2026, Apple published a notice to developers with the title <a href="https://developer.apple.com/news/?id=p6zjojqw" target="_blank" rel="noopener">&quot;Updates to Full Disk Access in macOS&quot;</a>. The notice says that Apple will add controls to the Full Disk Access permission, and it gives AI agents as the reason.</p>
+<p>This article collects what Apple and the press have published so far. It also lists the checks to do on a Mac that you use for work.</p>
+<h2>What Full Disk Access exposes</h2>
+<p>Full Disk Access is a permission in macOS. You give it to one app at a time. <a href="https://support.apple.com/guide/mac-help/change-privacy-security-settings-on-mac-mchl211c911f/mac" target="_blank" rel="noopener">Apple&#39;s Mac User Guide</a> says that it lets an app access all files on the computer. This includes data from other apps, and Apple gives Mail, Messages, Safari and Home as examples. It also includes data from Time Machine backups and some administrative settings for all users of the Mac.</p>
+<p>On a work Mac, these files can include customer mail, invoices, contracts and saved messages. An app with Full Disk Access can read all of them.</p>
+<h2>What Apple said</h2>
+<p>The notice is two paragraphs long. Apple says that Full Disk Access &quot;largely sidesteps&quot; the usual privacy controls so that backup apps can work. It says that some developers use the permission in ways that expose files, mail, messages and browsing history &quot;without users&#39; full knowledge and understanding&quot;.</p>
+<p>Apple also says that, for communication apps, this can compromise the privacy of the people the user communicates with.</p>
+<p>The stated change is one sentence: Apple &quot;will introduce additional controls&quot; so that a user can give this access &quot;only with very explicit user action&quot;. The stated reason is this: &quot;As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially.&quot;</p>
+<h2>What is not known</h2>
+<p>The notice gives no date, no macOS version and no description of the new controls. It names no app and no developer. <a href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/" target="_blank" rel="noopener">TechCrunch reports</a> that Apple did not answer its questions about the change.</p>
+<p>The notice does not say whether apps that have Full Disk Access today will keep it. <a href="https://www.macstories.net/linked/apple-announces-plan-to-impose-new-full-disk-access-controls-on-mac-developers/" target="_blank" rel="noopener">John Voorhees at MacStories</a> notes that file managers, launchers and other utilities also use the permission, not only backup apps. He asks whether Apple will add a confirmation step or will limit which apps can get the permission. Apple has not answered this.</p>
+<h2>The dispute before the notice</h2>
+<p>Apple does not name Meta. The notice came in the same week as a public dispute about Muse, Meta&#39;s AI agent.</p>
+<p>Jason Aten, a columnist at Inc., <a href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202" target="_blank" rel="noopener">wrote that Muse read his private messages</a> while Full Disk Access showed as off on his Mac. <a href="https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/" target="_blank" rel="noopener">Meta disputed this</a>. Andy Stone, Meta&#39;s VP of Communications, said: &quot;You have to enable both Full Disk Access and the Messages connector for Muse to be able to read your Messages content.&quot;</p>
+<p>The TechCrunch report cites no independent technical test of either account.</p>
+<h2>What to check on a work Mac</h2>
+<p>You do not have to wait for the new controls. The permission list is already in macOS.</p>
+<ol>
+<li>Open System Settings, then Privacy &amp; Security, then Full Disk Access. Read the list of apps.</li>
+<li>Turn the permission off for each app that you do not know or no longer use. Keep it on for backup apps and security apps that you use, because they need it to work.</li>
+<li>Look for terminal apps in the list. A tool that you start from a terminal with Full Disk Access gets the same access. This includes AI coding agents.</li>
+<li>Do not give Full Disk Access to an AI agent because the setup screen asks for it. Find out which function needs it. If you do not use that function, refuse.</li>
+<li>Open the settings of each AI agent and read its list of connectors. Turn off the connectors that you did not choose.</li>
+<li>If an agent needs files, put those files in one folder. Give access to that folder only, if the agent has this option.</li>
+<li>Read the data terms of the agent before you let it read mail or messages. Mail and messages contain data from your customers, not only your own data.</li>
+</ol>
+<p>Do the same checks again when Apple releases the new controls.</p>
+
+    </div>
+
+    <footer class="mx-auto flex max-w-measure flex-col gap-3.5 pt-[clamp(32px,5vw,48px)]">
+        <h2 class="label-caps m-0 font-normal text-ink-subtle">Sources</h2>
+        <ol class="m-0 list-decimal pl-[1.4em] text-small leading-[1.6] text-ink-muted marker:text-ink-subtle"><li><a class="link-bf" href="https://developer.apple.com/news/?id=p6zjojqw" target="_blank" rel="noopener">&quot;Updates to Full Disk Access in macOS&quot;</a> <span class="text-ink-subtle">· developer.apple.com</span></li><li><a class="link-bf" href="https://support.apple.com/guide/mac-help/change-privacy-security-settings-on-mac-mchl211c911f/mac" target="_blank" rel="noopener">Apple's Mac User Guide</a> <span class="text-ink-subtle">· support.apple.com</span></li><li><a class="link-bf" href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/" target="_blank" rel="noopener">TechCrunch reports</a> <span class="text-ink-subtle">· techcrunch.com</span></li><li><a class="link-bf" href="https://www.macstories.net/linked/apple-announces-plan-to-impose-new-full-disk-access-controls-on-mac-developers/" target="_blank" rel="noopener">John Voorhees at MacStories</a> <span class="text-ink-subtle">· macstories.net</span></li><li><a class="link-bf" href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202" target="_blank" rel="noopener">wrote that Muse read his private messages</a> <span class="text-ink-subtle">· inc.com</span></li><li><a class="link-bf" href="https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/" target="_blank" rel="noopener">Meta disputed this</a> <span class="text-ink-subtle">· techcrunch.com</span></li></ol>
+    </footer>
+</article>
+
+<section aria-labelledby="h-cta" class="fill-section ">
+    <div class="mx-auto flex max-w-page flex-wrap items-center justify-between gap-x-12 gap-y-6 px-gutter py-[clamp(56px,8vw,96px)]">
+        <div class="flex flex-[1_1_360px] flex-col gap-3">
+            <h2 id="h-cta" class="m-0 text-[clamp(28px,3.6vw,44px)] font-medium leading-[1.08] tracking-[-0.025em] text-[#e9e9ed]">Found something worth fixing?</h2>
+            <p class="m-0 max-w-[34em] text-body text-[#e4e7f5]">Bring it to a free 45-minute call.</p>
+        </div>
+        <a href="../index.html#book" class="btn btn-band">Book a free 45-minute call</a>
+    </div>
+</section>
+
+
+<section aria-labelledby="h-more" class="mx-auto max-w-page px-gutter pt-[clamp(48px,7vw,80px)]">
+    <h2 id="h-more" class="label-caps m-0 mb-2 font-normal text-ink-subtle">More from the blog</h2>
+    <div class="grid grid-cols-1 gap-x-8 min-[760px]:grid-cols-2">
+        <a href="meta-muse-small-business-agent.html" class="flex flex-col gap-1.5 border-t border-line py-5 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe]"><span class="text-meta text-ink-subtle">AI · 2 min read</span><span class="text-[20px] font-medium leading-[1.3] tracking-[-0.01em]">Meta Muse for Small Business: what it connects to and what it can change</span></a>
+        <a href="ai-cybersecurity-war.html" class="flex flex-col gap-1.5 border-t border-line py-5 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe]"><span class="text-meta text-ink-subtle">AI · 6 min read</span><span class="text-[20px] font-medium leading-[1.3] tracking-[-0.01em]">Your Business Is Already in an AI Cybersecurity War. Here's How to Not Lose It.</span></a></div>
+</section>
+
+</main>
+
+<footer class="mx-auto flex max-w-page flex-col gap-12 px-gutter pb-8 pt-[clamp(48px,6vw,72px)] text-ink">
+    <div class="flex flex-wrap gap-x-16 gap-y-10">
+        <div class="flex flex-[2_1_260px] flex-col gap-3.5">
+            <span class="flex items-center gap-2.5 text-[16px] font-medium">
+                <span aria-hidden="true" class="flex flex-col gap-0.5"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+                Bamboo Flags
+            </span>
+            <p class="m-0 max-w-[28em] text-[14px] leading-[1.6] text-ink-subtle">Custom automation and AI for growing businesses.</p>
+        </div>
+        <nav aria-label="Services" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Services</span>
+            <a href="../web-development.html" class="text-ink-muted no-underline hover:text-accent-ink">Web Development</a>
+            <a href="../process-optimization.html" class="text-ink-muted no-underline hover:text-accent-ink">Process Optimization</a>
+            <a href="../automation.html" class="text-ink-muted no-underline hover:text-accent-ink">Automation Services</a>
+            <a href="../ai-solutions.html" class="text-ink-muted no-underline hover:text-accent-ink">AI Solutions</a>
+        </nav>
+        <nav aria-label="Company" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Company</span>
+            <a href="../about.html" class="text-ink-muted no-underline hover:text-accent-ink">About</a>
+            <a href="../blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a>
+            <a href="../careers.html" class="text-ink-muted no-underline hover:text-accent-ink">Careers</a>
+            <a href="../index.html#book" class="text-ink-muted no-underline hover:text-accent-ink">Book a call</a>
+        </nav>
+    </div>
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-3 text-meta text-ink-subtle">
+        <span>© 2026 Bamboo Flags</span>
+        <span class="flex gap-5"><a href="../privacy.html" class="text-ink-muted no-underline hover:text-accent-ink">Privacy</a><a href="../terms.html" class="text-ink-muted no-underline hover:text-accent-ink">Terms</a></span>
+    </div>
+</footer>
+
+
+<script src="../js/site.js" defer></script>
+
+</body>
+</html>
