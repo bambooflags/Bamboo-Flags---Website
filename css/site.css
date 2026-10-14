@@ -158,6 +158,10 @@ textarea.input { min-height:120px; resize:vertical; }
 .prose-bf pre code { padding:0; background:none; }
 .prose-bf hr { border:0; height:1px; margin:2em 0; background:var(--bf-line); }
 .prose-bf img { max-width:100%; border-radius:8px; }
+.prose-bf table { display:block; overflow-x:auto; margin:1.5em 0; border-collapse:collapse; font-size:16px; line-height:1.4; }
+.prose-bf th, .prose-bf td { padding:10px 16px 10px 0; border-bottom:1px solid var(--bf-line); text-align:left; vertical-align:top; }
+.prose-bf th { font-weight:500; font-size:14px; color:var(--bf-ink-subtle); border-bottom-color:var(--bf-line-strong); }
+.prose-bf td:not(:first-child), .prose-bf th:not(:first-child) { text-align:center; white-space:nowrap; }
 
 /* "What to do this week" — the payoff of every post */
 .todo-card {
