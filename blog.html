@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,7 @@
     <meta property="og:url" content="https://bambooflags.com/blog.html">
     <meta property="og:image" content="https://bambooflags.com/og-image.png">
     <meta property="og:site_name" content="Bamboo Flags">
+    <meta property="og:locale" content="en_GB">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Blog — Bamboo Flags">
@@ -28,6 +29,10 @@
     <meta name="twitter:image" content="https://bambooflags.com/og-image.png">
     <!-- Canonical -->
     <link rel="canonical" href="https://bambooflags.com/blog.html">
+    <link rel="alternate" hreflang="en" href="https://bambooflags.com/blog.html">
+    <link rel="alternate" hreflang="de" href="https://bambooflags.com/de/blog.html">
+    <link rel="alternate" hreflang="it" href="https://bambooflags.com/it/blog.html">
+    <link rel="alternate" hreflang="x-default" href="https://bambooflags.com/blog.html">
     <!-- Structured Data -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bamboo Flags","url":"https://bambooflags.com","description":"Automation & AI Solutions for Growing Businesses","sameAs":[]}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,11 +111,12 @@
             <a href="index.html#approach" class="nav-link">Approach</a>
             <a href="blog.html" class="nav-link" aria-current="page">Blog</a>
             <a href="about.html" class="nav-link" >About</a>
+            <div role="group" aria-label="Language" class="flex items-center gap-1"><a href="blog.html" hreflang="en" lang="en" title="English" class="lang-flag" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s79"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t79"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s79)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t79)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span class="sr-only">English</span></a><a href="de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span class="sr-only">Deutsch</span></a><a href="it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span class="sr-only">Italiano</span></a></div>
             <a href="index.html#book" class="btn btn-primary">Book a free call</a>
         </nav>
 
         <!-- Mobile toggle (<900px) -->
-        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle>Menu</button>
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle data-label-open="Menu" data-label-close="Close">Menu</button>
     </div>
 
     <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
@@ -123,6 +129,8 @@
         <a href="index.html#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
         <a href="blog.html" class="py-3 text-[17px] text-ink no-underline" aria-current="page">Blog</a>
         <a href="about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <div role="group" aria-label="Language" class="flex flex-wrap gap-2 py-2"><a href="blog.html" hreflang="en" lang="en" title="English" class="lang-flag lang-flag-row" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s80"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t80"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s80)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t80)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>English</span></a><a href="de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag lang-flag-row" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span>Deutsch</span></a><a href="it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag lang-flag-row" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span>Italiano</span></a></div>
         <a href="index.html#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
     </nav>
 
@@ -143,11 +151,11 @@
 
     <section aria-labelledby="h-latest" class="pb-[clamp(40px,6vw,64px)]">
         <h2 id="h-latest" class="label-caps m-0 mb-3.5 font-normal text-ink-subtle">Latest</h2>
-        <a href="blog/which-task-to-automate-first.html" class="fill-featured flex flex-wrap gap-x-[clamp(32px,5vw,72px)] gap-y-6 rounded-lg border border-accent-line p-[clamp(24px,3vw,36px)] text-ink no-underline transition-colors duration-200 hover:border-accent">
+        <a href="blog/which-task-to-automate-first.html" hreflang="en" class="fill-featured flex flex-wrap gap-x-[clamp(32px,5vw,72px)] gap-y-6 rounded-lg border border-accent-line p-[clamp(24px,3vw,36px)] text-ink no-underline transition-colors duration-200 hover:border-accent">
             <span class="flex flex-[3_1_420px] flex-col gap-3.5">
                 <span class="flex flex-wrap items-center gap-2.5"><span class="tag tag-accent">Automation</span><span class="text-meta text-ink-subtle">14 Oct 2026 · 4 min read</span></span>
-                <span class="text-[clamp(26px,3.2vw,40px)] font-medium leading-[1.12] tracking-[-0.025em]">Which Task Should You Automate First? A 15-Minute Way to Decide</span>
-                <span class="max-w-[40em] text-[16px] leading-[1.6] text-ink-muted">Most small teams have a dozen things they could automate and no idea where to start. Here is a simple scoring method to find the one that pays off first.</span>
+                <span lang="en" class="text-[clamp(26px,3.2vw,40px)] font-medium leading-[1.12] tracking-[-0.025em]">Which Task Should You Automate First? A 15-Minute Way to Decide</span>
+                <span lang="en" class="max-w-[40em] text-[16px] leading-[1.6] text-ink-muted">Most small teams have a dozen things they could automate and no idea where to start. Here is a simple scoring method to find the one that pays off first.</span>
             </span>
             <span class="flex flex-[1_1_200px] flex-col justify-end gap-2 text-[14px] text-ink-muted">
                 
@@ -162,114 +170,114 @@
         </div>
         <ol class="m-0 list-none p-0" data-post-list>
         <li data-topic="Automation">
-            <a href="blog/which-task-to-automate-first.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/which-task-to-automate-first.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-10-14">14 Oct 2026</time><span>4 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Which Task Should You Automate First? A 15-Minute Way to Decide</span><span class="text-small text-ink-muted">Most small teams have a dozen things they could automate and no idea where to start. Here is a simple scoring method to find the one that pays off first.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Which Task Should You Automate First? A 15-Minute Way to Decide</span><span class="text-small text-ink-muted">Most small teams have a dozen things they could automate and no idea where to start. Here is a simple scoring method to find the one that pays off first.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Automation</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/apple-full-disk-access-ai-agents.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/apple-full-disk-access-ai-agents.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-10-05">5 Oct 2026</time><span>3 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check</span><span class="text-small text-ink-muted">On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check</span><span class="text-small text-ink-muted">On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/meta-muse-small-business-agent.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/meta-muse-small-business-agent.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-10-04">4 Oct 2026</time><span>2 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Meta Muse for Small Business: what it connects to and what it can change</span><span class="text-small text-ink-muted">Meta released an AI agent for small businesses on 29 September 2026. This article lists the connected tools, the stated functions, the limits of the evidence, and the checks to do before you connect your accounts.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Meta Muse for Small Business: what it connects to and what it can change</span><span class="text-small text-ink-muted">Meta released an AI agent for small businesses on 29 September 2026. This article lists the connected tools, the stated functions, the limits of the evidence, and the checks to do before you connect your accounts.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="Automation">
-            <a href="blog/ai-answers-your-customers-calls.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/ai-answers-your-customers-calls.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-09-25">25 Sep 2026</time><span>3 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">AI now answers your customers' calls. Soon it will make them too.</span><span class="text-small text-ink-muted">Voice agents now resolve most routine calls at large companies, and Google is testing Gemini calling businesses for its users. What a business that runs on the phone should decide this week.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">AI now answers your customers' calls. Soon it will make them too.</span><span class="text-small text-ink-muted">Voice agents now resolve most routine calls at large companies, and Google is testing Gemini calling businesses for its users. What a business that runs on the phone should decide this week.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Automation</span></span>
             </a>
         </li>
         <li data-topic="Web">
-            <a href="blog/airbnb-ai-code-60-percent.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/airbnb-ai-code-60-percent.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-05-08">8 May 2026</time><span>2 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Airbnb's AI writes 60% of its code. The other 40% matters more.</span><span class="text-small text-ink-muted">Airbnb's CEO says AI generates 60% of new code and resolves 40% of support issues. What that means for a business running a software or support team, and four things to do this week.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Airbnb's AI writes 60% of its code. The other 40% matters more.</span><span class="text-small text-ink-muted">Airbnb's CEO says AI generates 60% of new code and resolves 40% of support issues. What that means for a business running a software or support team, and four things to do this week.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Web</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/ai-cybersecurity-war.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/ai-cybersecurity-war.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-04-08">8 Apr 2026</time><span>6 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your Business Is Already in an AI Cybersecurity War. Here's How to Not Lose It.</span><span class="text-small text-ink-muted">Anthropic just revealed an AI model that finds zero-days in every major operating system. Iran is disrupting US water and energy. Here's what business owners should do this week.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your Business Is Already in an AI Cybersecurity War. Here's How to Not Lose It.</span><span class="text-small text-ink-muted">Anthropic just revealed an AI model that finds zero-days in every major operating system. Iran is disrupting US water and energy. Here's what business owners should do this week.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="Process">
-            <a href="blog/saaspocalypse-is-already-here.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/saaspocalypse-is-already-here.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-03-24">24 Mar 2026</time><span>4 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The SaaSpocalypse is already here</span><span class="text-small text-ink-muted">Datadog named it the SaaSpocalypse. VMware is losing half its customers. SAP missed its own cloud targets by €2 billion. Here's what it means for your SaaS stack.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The SaaSpocalypse is already here</span><span class="text-small text-ink-muted">Datadog named it the SaaSpocalypse. VMware is losing half its customers. SAP missed its own cloud targets by €2 billion. Here's what it means for your SaaS stack.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Process</span></span>
             </a>
         </li>
         <li data-topic="Web">
-            <a href="blog/ai-legacy-code-audit.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/ai-legacy-code-audit.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-03-09">9 Mar 2026</time><span>3 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your Legacy Code Has Vulnerabilities You've Never Found. AI Just Changed That.</span><span class="text-small text-ink-muted">AI can now audit legacy code — even 40-year-old assembly — faster and cheaper than traditional security engagements. Here's the practical workflow and what it means for your business.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your Legacy Code Has Vulnerabilities You've Never Found. AI Just Changed That.</span><span class="text-small text-ink-muted">AI can now audit legacy code — even 40-year-old assembly — faster and cheaper than traditional security engagements. Here's the practical workflow and what it means for your business.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Web</span></span>
             </a>
         </li>
         <li data-topic="Process">
-            <a href="blog/bootstrapped-popsockets-vc-alternative.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/bootstrapped-popsockets-vc-alternative.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-03-05">5 Mar 2026</time><span>5 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">290 million products, no VCs: what PopSockets gets right</span><span class="text-small text-ink-muted">PopSockets sold 290 million products across 115 countries with no institutional capital. Here's what the story actually reveals about when bootstrapping works — and when it doesn't.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">290 million products, no VCs: what PopSockets gets right</span><span class="text-small text-ink-muted">PopSockets sold 290 million products across 115 countries with no institutional capital. Here's what the story actually reveals about when bootstrapping works — and when it doesn't.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Process</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/your-ai-vendor-is-now-a-brand-statement.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/your-ai-vendor-is-now-a-brand-statement.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-03-04">4 Mar 2026</time><span>3 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your AI vendor is now a brand statement</span><span class="text-small text-ink-muted">ChatGPT uninstalls surged 295% after OpenAI's Pentagon deal. Claude's downloads grew. Here's what the AI trust war means for your business.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Your AI vendor is now a brand statement</span><span class="text-small text-ink-muted">ChatGPT uninstalls surged 295% after OpenAI's Pentagon deal. Claude's downloads grew. Here's what the AI trust war means for your business.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/context-engineering-moat.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/context-engineering-moat.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-03-02">2 Mar 2026</time><span>4 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Context is the moat: why your AI is only as good as what you feed it</span><span class="text-small text-ink-muted">Most AI tools underdeliver not because of the model, but because of poor context. Here's how to fix that — and why it's the only AI advantage that's actually hard to copy.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Context is the moat: why your AI is only as good as what you feed it</span><span class="text-small text-ink-muted">Most AI tools underdeliver not because of the model, but because of poor context. Here's how to fix that — and why it's the only AI advantage that's actually hard to copy.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/block-cut-40-staff-stock-jumped-23.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/block-cut-40-staff-stock-jumped-23.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-02-27">27 Feb 2026</time><span>2 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Block Cut 40% of Its Staff and the Stock Jumped 23%. That's the Whole Story.</span><span class="text-small text-ink-muted">Jack Dorsey's AI-framed layoffs at Block triggered a 23% stock jump. What this reveals about the new corporate incentive structure every business leader needs to understand.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Block Cut 40% of Its Staff and the Stock Jumped 23%. That's the Whole Story.</span><span class="text-small text-ink-muted">Jack Dorsey's AI-framed layoffs at Block triggered a 23% stock jump. What this reveals about the new corporate incentive structure every business leader needs to understand.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/audit-your-stack-before-ai-agents.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/audit-your-stack-before-ai-agents.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-02-26">26 Feb 2026</time><span>3 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">How to audit your stack before AI agents start touching it</span><span class="text-small text-ink-muted">Before you connect your CRM, payment processor, or email to an AI agent, here's the four-step audit every business owner should run.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">How to audit your stack before AI agents start touching it</span><span class="text-small text-ink-muted">Before you connect your CRM, payment processor, or email to an AI agent, here's the four-step audit every business owner should run.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/enterprise-ai-adoption-gap.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/enterprise-ai-adoption-gap.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-02-25">25 Feb 2026</time><span>6 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The AI Investment Boom Hasn't Reached Your Business Yet. That's the Opportunity</span><span class="text-small text-ink-muted">The OpenAI COO admitted AI hasn't penetrated enterprise processes. McKinsey puts active deployment at 22%. VCs poured $1.1B into AI chips in one day. Here's what that gap means for consultants and business owners who can bridge it.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The AI Investment Boom Hasn't Reached Your Business Yet. That's the Opportunity</span><span class="text-small text-ink-muted">The OpenAI COO admitted AI hasn't penetrated enterprise processes. McKinsey puts active deployment at 22%. VCs poured $1.1B into AI chips in one day. Here's what that gap means for consultants and business owners who can bridge it.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li>
         <li data-topic="Automation">
-            <a href="blog/hello-world.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/hello-world.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-02-24">24 Feb 2026</time><span>1 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Hello World</span><span class="text-small text-ink-muted">Our first blog post. A quick introduction to what we'll be sharing here.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">Hello World</span><span class="text-small text-ink-muted">Our first blog post. A quick introduction to what we'll be sharing here.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">Automation</span></span>
             </a>
         </li>
         <li data-topic="AI">
-            <a href="blog/anthropic-paradox.html" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
+            <a href="blog/anthropic-paradox.html" hreflang="en" class="grid grid-cols-1 gap-x-8 gap-y-2 border-t border-line py-6 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe] min-[760px]:grid-cols-[160px_minmax(0,1fr)_120px]">
                 <span class="flex flex-row gap-x-3 gap-y-1 text-meta text-ink-subtle min-[760px]:flex-col"><time datetime="2026-02-23">23 Feb 2026</time><span>4 min read</span></span>
-                <span class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The Anthropic Paradox: Their AI makes you worse at coding, and that's why they need you to keep using it</span><span class="text-small text-ink-muted">Anthropic published data showing AI assistance reduces developer skill mastery by 17%. That's not a bug in their product. It's the business model.</span></span>
+                <span lang="en" class="flex max-w-[44em] flex-col gap-2"><span class="text-[clamp(19px,2vw,23px)] font-medium leading-[1.3] tracking-[-0.012em]">The Anthropic Paradox: Their AI makes you worse at coding, and that's why they need you to keep using it</span><span class="text-small text-ink-muted">Anthropic published data showing AI assistance reduces developer skill mastery by 17%. That's not a bug in their product. It's the business model.</span></span>
                 <span class="self-start"><span class="tag tag-neutral">AI</span></span>
             </a>
         </li></ol>

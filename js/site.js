@@ -41,7 +41,9 @@
 
     function setOpen(open) {
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.textContent = open ? 'Close' : 'Menu';
+      toggle.textContent = open
+        ? (toggle.getAttribute('data-label-close') || 'Close')
+        : (toggle.getAttribute('data-label-open') || 'Menu');
       open ? show(panel) : hide(panel);
     }
     toggle.addEventListener('click', function () {
@@ -207,6 +209,35 @@
     });
   }
 
+  // ── Language: remember the flag the visitor picked ────
+  // Blog posts exist only in English; on them, site links lead back to the
+  // visitor's language instead of the English pages.
+  var LANG_KEY = 'bf-lang';
+  var SITE_PAGE = /^\/([a-z0-9-]+\.html)?$/;
+  var ENGLISH_ONLY = /^\/(privacy|terms)\.html$/;
+
+  function initLanguage() {
+    document.addEventListener('click', function (e) {
+      var flag = e.target.closest('[data-lang]');
+      if (!flag) return;
+      try { localStorage.setItem(LANG_KEY, flag.getAttribute('data-lang')); } catch (err) { /* storage blocked */ }
+    });
+
+    if (!document.documentElement.hasAttribute('data-lang-neutral')) return;
+    var lang = null;
+    try { lang = localStorage.getItem(LANG_KEY); } catch (err) { /* storage blocked */ }
+    if (lang !== 'de' && lang !== 'it') return;
+
+    Array.prototype.forEach.call(document.querySelectorAll('a[href]:not([data-lang])'), function (a) {
+      var url = new URL(a.getAttribute('href'), window.location.href);
+      if (url.origin !== window.location.origin) return;
+      if (!SITE_PAGE.test(url.pathname) || ENGLISH_ONLY.test(url.pathname)) return;
+      var page = url.pathname === '/index.html' ? '/' : url.pathname;
+      a.setAttribute('href', '/' + lang + page + url.search + url.hash);
+    });
+  }
+
+  initLanguage();
   initDropdown();
   initMobileNav();
   initLedger();

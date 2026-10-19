@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark" data-lang-neutral>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,11 +108,12 @@
             <a href="../index.html#approach" class="nav-link">Approach</a>
             <a href="../blog.html" class="nav-link" aria-current="page">Blog</a>
             <a href="../about.html" class="nav-link" >About</a>
+            <div role="group" aria-label="Language" class="flex items-center gap-1"><a href="../blog.html" hreflang="en" lang="en" title="English" class="lang-flag" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s63"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t63"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s63)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t63)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span class="sr-only">English</span></a><a href="../de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span class="sr-only">Deutsch</span></a><a href="../it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span class="sr-only">Italiano</span></a></div>
             <a href="../index.html#book" class="btn btn-primary">Book a free call</a>
         </nav>
 
         <!-- Mobile toggle (<900px) -->
-        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle>Menu</button>
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle data-label-open="Menu" data-label-close="Close">Menu</button>
     </div>
 
     <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
@@ -125,6 +126,8 @@
         <a href="../index.html#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
         <a href="../blog.html" class="py-3 text-[17px] text-ink no-underline" aria-current="page">Blog</a>
         <a href="../about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <div role="group" aria-label="Language" class="flex flex-wrap gap-2 py-2"><a href="../blog.html" hreflang="en" lang="en" title="English" class="lang-flag lang-flag-row" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s64"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t64"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s64)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t64)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>English</span></a><a href="../de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag lang-flag-row" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span>Deutsch</span></a><a href="../it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag lang-flag-row" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span>Italiano</span></a></div>
         <a href="../index.html#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
     </nav>
 
