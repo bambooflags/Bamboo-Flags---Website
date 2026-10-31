@@ -1,0 +1,42 @@
+# Bamboo Flags
+
+> Bamboo Flags builds custom automation, AI solutions, process optimization and web development for growing businesses. Work starts with a free 45-minute call. The site is in English, with German (https://bambooflags.com/de/) and Italian (https://bambooflags.com/it/) versions.
+
+## Main pages
+- [Home](https://bambooflags.com/): Bamboo Flags builds custom automation and AI solutions for growing businesses. Book a free 45-minute call.
+- [About](https://bambooflags.com/about.html): Flexible like bamboo, clear like a flag. How Bamboo Flags builds automation for growing businesses, and the values we hold to on every project.
+- [Blog](https://bambooflags.com/blog.html): Daily articles on AI, automation, security and the web.
+- [Careers](https://bambooflags.com/careers.html): No current openings at Bamboo Flags. Send a spontaneous application.
+
+## Services
+- [Web Development](https://bambooflags.com/web-development.html): Websites, portals and internal tools built to connect with the systems you already use — not a brochure that sits on its own.
+- [Process Optimization](https://bambooflags.com/process-optimization.html): We map how work actually moves through your team, find the steps that cost time, and redesign the process before anything is built.
+- [Automation Services](https://bambooflags.com/automation.html): Data entry, handovers, reminders and reports handed to systems that run every time, with clear logs when something needs a person.
+- [AI Solutions](https://bambooflags.com/ai-solutions.html): AI applied to specific tasks — reading documents, drafting replies, sorting requests — with people kept in the loop where it matters.
+
+## Blog
+- [AI agents and bank passwords: what US banks said in October 2026](https://bambooflags.com/blog/ai-agents-bank-passwords.html): Bank of America, Chase and Schwab told customers not to give bank passwords to AI agents. This article lists what they said, who is liable, and what to check.
+- [GPT-6.1 Terra: OpenAI's cheaper model for computer use tasks](https://bambooflags.com/blog/gpt-6-1-terra-computer-use.html): On 26 October 2026 OpenAI released GPT-6.1 Terra at $1 and $5 per million tokens. This article lists what it costs, what is not known and the checks to run.
+- [PHP2Shell PHP vulnerability: what to check on your website](https://bambooflags.com/blog/php2shell-php-vulnerability.html): On 21 October 2026 PHP fixed two critical flaws that let attackers run code on web servers. This article lists the facts, who must patch, and the checks to do.
+- [Websites are blocking AI agents: what this means for your automations and your own site](https://bambooflags.com/blog/websites-blocking-ai-agents.html): Amazon, Delta, Yelp and two US banks block AI agents that act for users. This article lists who blocks agents and why, what is not known, and the checks to do on your automations and on your own website.
+- [Which Task Should You Automate First? A 15-Minute Way to Decide](https://bambooflags.com/blog/which-task-to-automate-first.html): Most small teams have a dozen things they could automate and no idea where to start. Here is a simple scoring method to find the one that pays off first.
+- [Apple will tighten Full Disk Access on the Mac: what the permission exposes and what to check](https://bambooflags.com/blog/apple-full-disk-access-ai-agents.html): On 2 October 2026 Apple told developers that it will add controls to the macOS Full Disk Access permission because of AI agents. This article lists what Apple said, what the permission exposes, what is not known, and the checks to do on a work Mac.
+- [Meta Muse for Small Business: what it connects to and what it can change](https://bambooflags.com/blog/meta-muse-small-business-agent.html): Meta released an AI agent for small businesses on 29 September 2026. This article lists the connected tools, the stated functions, the limits of the evidence, and the checks to do before you connect your accounts.
+- [AI now answers your customers' calls. Soon it will make them too.](https://bambooflags.com/blog/ai-answers-your-customers-calls.html): Voice agents now resolve most routine calls at large companies, and Google is testing Gemini calling businesses for its users. What a business that runs on the phone should decide this week.
+- [Airbnb's AI writes 60% of its code. The other 40% matters more.](https://bambooflags.com/blog/airbnb-ai-code-60-percent.html): Airbnb's CEO says AI generates 60% of new code and resolves 40% of support issues. What that means for a business running a software or support team, and four things to do this week.
+- [Your Business Is Already in an AI Cybersecurity War. Here's How to Not Lose It.](https://bambooflags.com/blog/ai-cybersecurity-war.html): Anthropic just revealed an AI model that finds zero-days in every major operating system. Iran is disrupting US water and energy. Here's what business owners should do this week.
+- [The SaaSpocalypse is already here](https://bambooflags.com/blog/saaspocalypse-is-already-here.html): Datadog named it the SaaSpocalypse. VMware is losing half its customers. SAP missed its own cloud targets by €2 billion. Here's what it means for your SaaS stack.
+- [Your Legacy Code Has Vulnerabilities You've Never Found. AI Just Changed That.](https://bambooflags.com/blog/ai-legacy-code-audit.html): AI can now audit legacy code — even 40-year-old assembly — faster and cheaper than traditional security engagements. Here's the practical workflow and what it means for your business.
+- [290 million products, no VCs: what PopSockets gets right](https://bambooflags.com/blog/bootstrapped-popsockets-vc-alternative.html): PopSockets sold 290 million products across 115 countries with no institutional capital. Here's what the story actually reveals about when bootstrapping works — and when it doesn't.
+- [Your AI vendor is now a brand statement](https://bambooflags.com/blog/your-ai-vendor-is-now-a-brand-statement.html): ChatGPT uninstalls surged 295% after OpenAI's Pentagon deal. Claude's downloads grew. Here's what the AI trust war means for your business.
+- [Context is the moat: why your AI is only as good as what you feed it](https://bambooflags.com/blog/context-engineering-moat.html): Most AI tools underdeliver not because of the model, but because of poor context. Here's how to fix that — and why it's the only AI advantage that's actually hard to copy.
+- [Block Cut 40% of Its Staff and the Stock Jumped 23%. That's the Whole Story.](https://bambooflags.com/blog/block-cut-40-staff-stock-jumped-23.html): Jack Dorsey's AI-framed layoffs at Block triggered a 23% stock jump. What this reveals about the new corporate incentive structure every business leader needs to understand.
+- [How to audit your stack before AI agents start touching it](https://bambooflags.com/blog/audit-your-stack-before-ai-agents.html): Before you connect your CRM, payment processor, or email to an AI agent, here's the four-step audit every business owner should run.
+- [The AI Investment Boom Hasn't Reached Your Business Yet. That's the Opportunity](https://bambooflags.com/blog/enterprise-ai-adoption-gap.html): The OpenAI COO admitted AI hasn't penetrated enterprise processes. McKinsey puts active deployment at 22%. VCs poured $1.1B into AI chips in one day. Here's what that gap means for consultants and business owners who can bridge it.
+- [Hello World](https://bambooflags.com/blog/hello-world.html): Our first blog post. A quick introduction to what we'll be sharing here.
+- [The Anthropic Paradox: Their AI makes you worse at coding, and that's why they need you to keep using it](https://bambooflags.com/blog/anthropic-paradox.html): Anthropic published data showing AI assistance reduces developer skill mastery by 17%. That's not a bug in their product. It's the business model.
+
+## Optional
+- [Privacy policy](https://bambooflags.com/privacy.html)
+- [Terms](https://bambooflags.com/terms.html)
+- [Sitemap](https://bambooflags.com/sitemap.xml)
