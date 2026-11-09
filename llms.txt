@@ -16,6 +16,7 @@
 
 ## Blog
 - [Outlook rejects email from domains without DMARC: what to check](https://bambooflags.com/blog/outlook-rejecting-email-without-dmarc.html): Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.
+- [NIST small business cybersecurity guide: checks for AI tools](https://bambooflags.com/blog/nist-small-business-cybersecurity-guide.html): NIST published a free cybersecurity guide for businesses with no employees on 2 November 2026. It includes checks for AI tools. What it says and what to do.
 - [Stolen AI API keys: LLMjacking bills reach $100,000 a day](https://bambooflags.com/blog/llmjacking-stolen-ai-api-keys.html): Google reports attackers who steal AI API keys and cloud logins, then resell the access. Bills passed $100,000 in one day. What happened and the checks to do.
 - [Cursor extension backdoor: checks for teams using AI code tools](https://bambooflags.com/blog/cursor-extension-backdoor.html): A tampered Claude Code extension in the Cursor marketplace planted a backdoor on 29 October 2026. What it did, who is affected and the checks for your team.
 - [AI training opt-out: one robots.txt rule for four AI companies](https://bambooflags.com/blog/ai-training-opt-out-robots-txt.html): Google, Microsoft, OpenAI and Anthropic plan to honor one robots.txt rule that blocks AI training. This article gives the rule, the dates and the checks to do.
