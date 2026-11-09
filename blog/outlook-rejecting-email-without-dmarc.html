@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" data-lang-neutral>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#161826">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69WG47KQK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Q69WG47KQK');
+    </script>
+    <title>Outlook rejects email from domains without DMARC: what to check — Bamboo Flags</title>
+    <meta name="description" content="Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.">
+        <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Outlook rejects email from domains without DMARC: what to check — Bamboo Flags">
+    <meta property="og:description" content="Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.">
+    <meta property="og:url" content="https://bambooflags.com/blog/outlook-rejecting-email-without-dmarc.html">
+    <meta property="og:image" content="https://bambooflags.com/og-image.png">
+    <meta property="og:site_name" content="Bamboo Flags">
+    <meta property="article:published_time" content="2026-11-09">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Outlook rejects email from domains without DMARC: what to check — Bamboo Flags">
+    <meta name="twitter:description" content="Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.">
+    <meta name="twitter:image" content="https://bambooflags.com/og-image.png">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://bambooflags.com/blog/outlook-rejecting-email-without-dmarc.html">
+    <!-- Structured Data -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bamboo Flags","url":"https://bambooflags.com","description":"Automation & AI Solutions for Growing Businesses","sameAs":[]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Outlook rejects email from domains without DMARC: what to check — Bamboo Flags","description":"Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.","datePublished":"2026-11-09","author":{"@type":"Organization","name":"Bamboo Flags"},"publisher":{"@type":"Organization","name":"Bamboo Flags"},"url":"https://bambooflags.com/blog/outlook-rejecting-email-without-dmarc.html"}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { extend: {
+                fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                colors: {
+                    bg: 'var(--bf-bg)', surface: 'var(--bf-surface)', 'surface-2': 'var(--bf-surface-2)',
+                    ink: { DEFAULT: 'var(--bf-ink)', muted: 'var(--bf-ink-muted)', subtle: 'var(--bf-ink-subtle)' },
+                    line: { DEFAULT: 'var(--bf-line)', strong: 'var(--bf-line-strong)' },
+                    accent: { DEFAULT: 'var(--bf-accent)', ink: 'var(--bf-accent-ink)', tint: 'var(--bf-accent-tint)', line: 'var(--bf-accent-line)' },
+                    section: { DEFAULT: '#262a60', glow: '#353b80' }
+                },
+                fontSize: {
+                    display: ['clamp(44px,8.6vw,112px)', { lineHeight: '1', letterSpacing: '-0.04em' }],
+                    h1: ['clamp(40px,6vw,72px)', { lineHeight: '1.02', letterSpacing: '-0.035em' }],
+                    h2: ['clamp(30px,4vw,48px)', { lineHeight: '1.1', letterSpacing: '-0.025em' }],
+                    h3: ['clamp(22px,2.6vw,36px)', { lineHeight: '1.2', letterSpacing: '-0.02em' }],
+                    lead: ['19px', '1.6'], article: ['18px', '1.7'], body: ['17px', '1.6'],
+                    small: ['15px', '1.55'], meta: ['13px', '1.5'], kicker: ['12px', { lineHeight: '1.4', letterSpacing: '0.08em' }]
+                },
+                borderRadius: { sm: '4px', md: '8px', lg: '14px' },
+                maxWidth: { page: '1280px', measure: '720px' },
+                spacing: { gutter: 'clamp(20px,5vw,72px)', section: 'clamp(64px,9vw,112px)' },
+                boxShadow: {
+                    sm: '0 0 0 1px #3f424d',
+                    md: '0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,.55)',
+                    lg: '0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,.65)'
+                }
+            } }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/site.css">
+    
+</head>
+<body class="bg-page-flat min-h-screen font-sans text-ink">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 btn btn-secondary bg-bg">Skip to content</a>
+<header class="relative z-40 mx-auto max-w-page px-gutter">
+    <div class="flex h-[68px] items-center gap-8">
+        <a href="../index.html" class="flex items-center gap-2.5 text-[16px] font-medium tracking-[-0.01em] text-ink no-underline">
+            <span class="flex flex-col gap-0.5" aria-hidden="true"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+            Bamboo Flags
+        </a>
+
+        <!-- Desktop nav (≥900px) -->
+        <nav aria-label="Main" class="ml-auto hidden items-center gap-7 text-[14px] min-[900px]:flex">
+            <div class="relative" data-dropdown>
+                <button type="button" class="nav-link flex items-center gap-1 py-1.5" aria-expanded="false" aria-haspopup="true" aria-controls="services-menu" data-dropdown-trigger >
+                    Services
+                    <svg class="caret" width="12" height="12" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                </button>
+                <div id="services-menu" class="absolute -left-5 top-[calc(100%+12px)] hidden w-[380px] flex-col rounded-lg border border-line bg-surface p-2 shadow-lg" data-dropdown-panel>
+                    <a href="../web-development.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">01</span><span class="text-[15px]">Web Development</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Sites and internal tools that plug into how you work.</span>
+                    </a>
+                    <a href="../process-optimization.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">02</span><span class="text-[15px]">Process Optimization</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Map the workflow, remove the waste.</span>
+                    </a>
+                    <a href="../automation.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">03</span><span class="text-[15px]">Automation Services</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Hand repetitive tasks to reliable systems.</span>
+                    </a>
+                    <a href="../ai-solutions.html" class="grid grid-cols-[28px_1fr] gap-x-2 gap-y-0.5 rounded-md p-3 text-ink no-underline hover:bg-surface-2">
+                        <span class="tnum pt-0.5 text-[12px] text-accent">04</span><span class="text-[15px]">AI Solutions</span>
+                        <span></span><span class="text-[13px] leading-[1.45] text-ink-subtle">Practical AI where it earns its place.</span>
+                    </a>
+                </div>
+            </div>
+            <a href="../index.html#approach" class="nav-link">Approach</a>
+            <a href="../blog.html" class="nav-link" aria-current="page">Blog</a>
+            <a href="../about.html" class="nav-link" >About</a>
+            <div role="group" aria-label="Language" class="flex items-center gap-1"><a href="../blog.html" hreflang="en" lang="en" title="English" class="lang-flag" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s47"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t47"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s47)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t47)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span class="sr-only">English</span></a><a href="../de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span class="sr-only">Deutsch</span></a><a href="../it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span class="sr-only">Italiano</span></a></div>
+            <a href="../index.html#book" class="btn btn-primary">Book a free call</a>
+        </nav>
+
+        <!-- Mobile toggle (<900px) -->
+        <button type="button" class="btn btn-secondary ml-auto min-h-[44px] min-w-[44px] min-[900px]:hidden" aria-expanded="false" aria-controls="mnav" data-nav-toggle data-label-open="Menu" data-label-close="Close">Menu</button>
+    </div>
+
+    <nav id="mnav" aria-label="Main" class="hidden flex-col border-t border-line pb-5 pt-2 min-[900px]:!hidden" data-nav-panel>
+        <span class="label-caps pb-1.5 pt-3.5 text-ink-subtle">Services</span>
+        <a href="../web-development.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">01</span>Web Development</a>
+        <a href="../process-optimization.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">02</span>Process Optimization</a>
+        <a href="../automation.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">03</span>Automation Services</a>
+        <a href="../ai-solutions.html" class="flex gap-3 py-3 text-[17px] text-ink no-underline"><span class="tnum pt-[3px] text-[13px] text-accent">04</span>AI Solutions</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <a href="../index.html#approach" class="py-3 text-[17px] text-ink no-underline">Approach</a>
+        <a href="../blog.html" class="py-3 text-[17px] text-ink no-underline" aria-current="page">Blog</a>
+        <a href="../about.html" class="py-3 text-[17px] text-ink no-underline" >About</a>
+        <div class="my-2.5 h-px bg-line"></div>
+        <div role="group" aria-label="Language" class="flex flex-wrap gap-2 py-2"><a href="../blog.html" hreflang="en" lang="en" title="English" class="lang-flag lang-flag-row" data-lang="en" aria-current="true"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 60 30"><clipPath id="uk-s48"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-t48"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-s48)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-t48)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>English</span></a><a href="../de/blog.html" hreflang="de" lang="de" title="Deutsch" class="lang-flag lang-flag-row" data-lang="de"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5 3"><rect width="5" height="3" fill="#000"/><rect y="1" width="5" height="2" fill="#D00"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span>Deutsch</span></a><a href="../it/blog.html" hreflang="it" lang="it" title="Italiano" class="lang-flag lang-flag-row" data-lang="it"><svg width="22" height="15" class="block rounded-[2px]" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span>Italiano</span></a></div>
+        <a href="../index.html#book" class="btn btn-primary mt-3 min-h-[44px] w-full">Book a free 45-minute call</a>
+    </nav>
+
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-x-6 gap-y-1 py-3 label-caps text-ink-subtle">
+        <span>Custom automation &amp; AI for growing businesses</span><span>Discover · Design · Deliver · Drive</span>
+    </div>
+</header>
+
+
+<main id="main">
+<div class="read-progress" aria-hidden="true"><span data-read-progress></span></div>
+<article class="mx-auto max-w-page px-gutter pb-[clamp(56px,8vw,96px)] pt-[clamp(32px,5vw,56px)]">
+    <header class="mx-auto flex max-w-measure flex-col gap-[18px] border-b border-line pb-[clamp(28px,4vw,40px)]">
+        <nav aria-label="Breadcrumb" class="flex gap-2 text-meta text-ink-subtle"><a href="../blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a><span aria-hidden="true">/</span><span>Web</span></nav>
+        <h1 class="m-0 text-[clamp(34px,5vw,56px)] font-medium leading-[1.08] tracking-[-0.03em]">Outlook rejects email from domains without DMARC: what to check</h1>
+        <p class="m-0 text-[clamp(18px,1.8vw,21px)] leading-[1.5] text-ink-muted">Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.</p>
+        <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-[14px] text-ink-subtle"><span>Bamboo Flags</span><time datetime="2026-11-09">9 Nov 2026</time><span>3 min read</span></div>
+    </header>
+    <div class="prose-bf mx-auto max-w-measure pt-[clamp(28px,4vw,40px)]">
+<p>Since 5 November 2026, Microsoft&#39;s consumer email services reject some messages from domains that have no DMARC record. Two email companies, MailRoute and mxio, reported the change on 6 November. It affects mail to Outlook.com, Hotmail, Live and MSN addresses, also from small senders.</p>
+<p>If your business sends email from its own domain, a customer with a Hotmail address may not receive your quote or invoice. The usual fix is one DNS record.</p>
+<h2>The Outlook.com bounce: &quot;Message lacks SPF/DKIM/DMARC&quot;</h2>
+<p>The sender gets this bounce: <code>550 5.7.1 Message rejected: Message lacks SPF/DKIM/DMARC Auth Records</code>. Some versions add a code in brackets, such as <code>(AS9031519)</code>.</p>
+<p><a href="https://mailroute.net/blog/outlook-rejecting-email-without-dmarc" target="_blank" rel="noopener">MailRoute&#39;s report</a> is based on its own outbound logs and on reports from other administrators. It says that volume is not the trigger: &quot;A one-line reply from a small office can bounce.&quot;</p>
+<p>Microsoft rejects only part of the mail from an affected domain. The same message can bounce once and arrive on a second try, so the problem is easy to miss. <a href="https://mxio.io/learn/errors/outlook-lacks-spf-dkim-dmarc-auth-records-5-7-1" target="_blank" rel="noopener">The mxio guide</a> says that Outlook.com does not try again: you must resend after the fix.</p>
+<h2>Microsoft has not announced the rule</h2>
+<p>As of 6 November, Microsoft had published no postmaster notice, blog post or service-health entry about it, MailRoute says. The facts above come from the two companies, which both sell email services, not from Microsoft.</p>
+<p>An earlier rule covers only large senders. In April 2025, Microsoft <a href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730" target="_blank" rel="noopener">announced requirements for high-volume senders</a>: domains that send more than 5,000 messages a day to Outlook.com must pass SPF and DKIM and publish DMARC at &quot;no less than p=none&quot;. From 5 May 2025, Outlook.com sent their failing mail to Junk.</p>
+<p>Since 1 February 2024, <a href="https://support.google.com/a/answer/81126" target="_blank" rel="noopener">Google requires all senders</a> to Gmail to set up SPF or DKIM. Google requires DMARC only above 5,000 messages a day.</p>
+<h2>What SPF, DKIM and DMARC do</h2>
+<p>These three DNS records prove that an email comes from your domain:</p>
+<ul>
+<li>SPF lists the servers that can send mail for your domain.</li>
+<li>DKIM adds a digital signature to each message.</li>
+<li>DMARC tells the receiving server what to do when the checks fail, and where to send reports.</li>
+</ul>
+<p>DMARC passes only when SPF or DKIM passes for the same domain as the From address. This match is called alignment. A DMARC record alone does not help if no service passes SPF or DKIM for your domain.</p>
+<h2>How to add a DMARC record</h2>
+<p>Use a free online DMARC checker, or run <code>dig +short TXT _dmarc.yourbusiness.com</code> in a terminal. An empty result means no DMARC record.</p>
+<p>In the DNS settings at your domain provider, add a TXT record:</p>
+<ul>
+<li>Name: <code>_dmarc</code> only. Some providers add the domain, and the full domain makes a doubled name.</li>
+<li>Value: <code>v=DMARC1; p=none; rua=mailto:dmarc@yourbusiness.com</code>. The <code>rua</code> address receives daily reports. Use a mailbox that you read, or remove that part.</li>
+</ul>
+<p>A domain can have only one DMARC record. If one exists, edit it.</p>
+<p>Then check DKIM. In Microsoft 365, DKIM for your own domain needs two CNAME records, <code>selector1</code> and <code>selector2</code>. In Google Workspace, turn on DKIM in the admin console and publish the <code>google._domainkey</code> record. Check every other service that sends as your domain too, such as the newsletter tool or the booking system.</p>
+<p>According to mxio, <code>p=none</code> stops the rejection but does not stop fake email in your name. For that, change the policy to <code>quarantine</code> and then <code>reject</code>, after the reports show that all your real senders pass. The NIST guide names phishing as a common threat to small businesses, as we described in our article on the <a href="nist-small-business-cybersecurity-guide.html">NIST cybersecurity guide</a>.</p>
+<section class="todo-card" aria-labelledby="todo"><h2 id="todo">What to do this week</h2>
+<ol class="todo-list"><li><span class="todo-num">01</span><span class="todo-body"><strong class="todo-action">Check your domain for a DMARC record.</strong><span class="todo-detail">If you do not manage the DNS, ask your IT provider or web agency.</span></span></li><li><span class="todo-num">02</span><span class="todo-body"><strong class="todo-action">Add <code>v=DMARC1; p=none</code> at <code>_dmarc</code> if there is no record.</strong></span></li><li><span class="todo-num">03</span><span class="todo-body"><strong class="todo-action">Turn on DKIM for your domain in Microsoft 365 or Google Workspace.</strong></span></li><li><span class="todo-num">04</span><span class="todo-body"><strong class="todo-action">Send a test message to an Outlook.com or Hotmail address.</strong><span class="todo-detail">In the message headers, look for <code>dmarc=pass</code>.</span></span></li><li><span class="todo-num">05</span><span class="todo-body"><strong class="todo-action">Search for bounces with &quot;Message lacks SPF/DKIM/DMARC&quot; since 5 November, and send those messages again.</strong><span class="todo-detail">If DMARC passes and mail still bounces, mxio suggests that you report the full bounce at olcsupport.office.com.</span></span></li></ol>
+</section>
+    </div>
+
+    <footer class="mx-auto flex max-w-measure flex-col gap-3.5 pt-[clamp(32px,5vw,48px)]">
+        <h2 class="label-caps m-0 font-normal text-ink-subtle">Sources</h2>
+        <ol class="m-0 list-decimal pl-[1.4em] text-small leading-[1.6] text-ink-muted marker:text-ink-subtle"><li><a class="link-bf" href="https://mailroute.net/blog/outlook-rejecting-email-without-dmarc" target="_blank" rel="noopener">MailRoute's report</a> <span class="text-ink-subtle">· mailroute.net</span></li><li><a class="link-bf" href="https://mxio.io/learn/errors/outlook-lacks-spf-dkim-dmarc-auth-records-5-7-1" target="_blank" rel="noopener">The mxio guide</a> <span class="text-ink-subtle">· mxio.io</span></li><li><a class="link-bf" href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730" target="_blank" rel="noopener">announced requirements for high-volume senders</a> <span class="text-ink-subtle">· techcommunity.microsoft.com</span></li><li><a class="link-bf" href="https://support.google.com/a/answer/81126" target="_blank" rel="noopener">Google requires all senders</a> <span class="text-ink-subtle">· support.google.com</span></li></ol>
+    </footer>
+</article>
+
+<section aria-labelledby="h-cta" class="fill-section ">
+    <div class="mx-auto flex max-w-page flex-wrap items-center justify-between gap-x-12 gap-y-6 px-gutter py-[clamp(56px,8vw,96px)]">
+        <div class="flex flex-[1_1_360px] flex-col gap-3">
+            <h2 id="h-cta" class="m-0 text-[clamp(28px,3.6vw,44px)] font-medium leading-[1.08] tracking-[-0.025em] text-[#e9e9ed]">Found something worth fixing?</h2>
+            <p class="m-0 max-w-[34em] text-body text-[#e4e7f5]">Bring it to a free 45-minute call.</p>
+        </div>
+        <a href="../index.html#book" class="btn btn-band">Book a free 45-minute call</a>
+    </div>
+</section>
+
+
+<section aria-labelledby="h-more" class="mx-auto max-w-page px-gutter pt-[clamp(48px,7vw,80px)]">
+    <h2 id="h-more" class="label-caps m-0 mb-2 font-normal text-ink-subtle">More from the blog</h2>
+    <div class="grid grid-cols-1 gap-x-8 min-[760px]:grid-cols-2">
+        <a href="ai-training-opt-out-robots-txt.html" class="flex flex-col gap-1.5 border-t border-line py-5 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe]"><span class="text-meta text-ink-subtle">Web · 4 min read</span><span class="text-[20px] font-medium leading-[1.3] tracking-[-0.01em]">AI training opt-out: one robots.txt rule for four AI companies</span></a>
+        <a href="123-reg-data-breach.html" class="flex flex-col gap-1.5 border-t border-line py-5 text-ink no-underline transition-colors duration-200 hover:text-[#e7e5fe]"><span class="text-meta text-ink-subtle">Web · 3 min read</span><span class="text-[20px] font-medium leading-[1.3] tracking-[-0.01em]">123 Reg data breach: what the AI-driven attack means for you</span></a></div>
+</section>
+
+</main>
+
+<footer class="mx-auto flex max-w-page flex-col gap-12 px-gutter pb-8 pt-[clamp(48px,6vw,72px)] text-ink">
+    <div class="flex flex-wrap gap-x-16 gap-y-10">
+        <div class="flex flex-[2_1_260px] flex-col gap-3.5">
+            <span class="flex items-center gap-2.5 text-[16px] font-medium">
+                <span aria-hidden="true" class="flex flex-col gap-0.5"><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span><span class="h-1.5 w-[3px] bg-accent"></span></span>
+                Bamboo Flags
+            </span>
+            <p class="m-0 max-w-[28em] text-[14px] leading-[1.6] text-ink-subtle">Custom automation and AI for growing businesses.</p>
+        </div>
+        <nav aria-label="Services" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Services</span>
+            <a href="../web-development.html" class="text-ink-muted no-underline hover:text-accent-ink">Web Development</a>
+            <a href="../process-optimization.html" class="text-ink-muted no-underline hover:text-accent-ink">Process Optimization</a>
+            <a href="../automation.html" class="text-ink-muted no-underline hover:text-accent-ink">Automation Services</a>
+            <a href="../ai-solutions.html" class="text-ink-muted no-underline hover:text-accent-ink">AI Solutions</a>
+        </nav>
+        <nav aria-label="Company" class="flex flex-[1_1_160px] flex-col gap-2.5 text-[14px]">
+            <span class="label-caps pb-1 text-ink-subtle">Company</span>
+            <a href="../about.html" class="text-ink-muted no-underline hover:text-accent-ink">About</a>
+            <a href="../blog.html" class="text-ink-muted no-underline hover:text-accent-ink">Blog</a>
+            <a href="../careers.html" class="text-ink-muted no-underline hover:text-accent-ink">Careers</a>
+            <a href="../index.html#book" class="text-ink-muted no-underline hover:text-accent-ink">Book a call</a>
+        </nav>
+    </div>
+    <div class="rule-fade"></div>
+    <div class="flex flex-wrap justify-between gap-3 text-meta text-ink-subtle">
+        <span>© 2026 Bamboo Flags</span>
+    </div>
+</footer>
+
+
+<script src="../js/site.js" defer></script>
+
+</body>
+</html>
