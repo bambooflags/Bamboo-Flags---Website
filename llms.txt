@@ -16,6 +16,7 @@
 
 ## Blog
 - [Gemini keeps chats for two months, even with history off](https://bambooflags.com/blog/gemini-chats-kept-two-months.html): On 16 November 2026, Google said Gemini will keep chats for about two months with history off, up from 72 hours. What changes and what your team should check.
+- [Lovable apps exposed customer data: how to check yours](https://bambooflags.com/blog/lovable-apps-exposed-data.html): Researchers found 24,664 Lovable-built sites that sent database records to any visitor without a login. What was exposed and how to check your own app.
 - [Outlook rejects email from domains without DMARC: what to check](https://bambooflags.com/blog/outlook-rejecting-email-without-dmarc.html): Since 5 November 2026, Outlook.com rejects some email from domains without a DMARC record, also from small senders. How to check your domain and fix it.
 - [AI agent orders: Uber counted 4 rides in its busiest week](https://bambooflags.com/blog/ai-agent-orders-uber-doordash.html): Uber and DoorDash reported how many orders AI agents placed: 4 rides and about 500 meals in a week, several hundred in total. What it means for your business.
 - [NIST small business cybersecurity guide: checks for AI tools](https://bambooflags.com/blog/nist-small-business-cybersecurity-guide.html): NIST published a free cybersecurity guide for businesses with no employees on 2 November 2026. It includes checks for AI tools. What it says and what to do.
