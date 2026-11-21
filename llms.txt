@@ -15,6 +15,7 @@
 - [AI Solutions](https://bambooflags.com/ai-solutions.html): AI applied to specific tasks — reading documents, drafting replies, sorting requests — with people kept in the loop where it matters.
 
 ## Blog
+- [Mailchimp sold to Bending Spoons: what to check before 2027](https://bambooflags.com/blog/mailchimp-sold-bending-spoons.html): On 19 November 2026, Intuit agreed to sell Mailchimp to Bending Spoons for $3.68 billion. What changes for your email list, and what to export and check now.
 - [Microsoft To Do retires in June 2027: what to move and when](https://bambooflags.com/blog/microsoft-to-do-retirement-planner.html): Microsoft To Do apps retire on 30 June 2027, and tasks will not move to Planner by themselves. What changes for work and personal accounts, and what to do.
 - [Optimizely hack: check the third-party scripts on your site](https://bambooflags.com/blog/optimizely-hack-third-party-scripts.html): On 16 November 2026, attackers used Optimizely to put malware on the websites of 178 organisations. How to check the third-party scripts on your own site.
 - [Gemini keeps chats for two months, even with history off](https://bambooflags.com/blog/gemini-chats-kept-two-months.html): On 16 November 2026, Google said Gemini will keep chats for about two months with history off, up from 72 hours. What changes and what your team should check.
