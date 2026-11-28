@@ -15,6 +15,7 @@
 - [AI Solutions](https://bambooflags.com/ai-solutions.html): AI applied to specific tasks — reading documents, drafting replies, sorting requests — with people kept in the loop where it matters.
 
 ## Blog
+- [Rackspace Spot shutdown: two weeks to leave after a breach](https://bambooflags.com/blog/rackspace-spot-shutdown-breach.html): Rackspace closes its Spot cloud service on 8 December 2026, three weeks after a breach. What customers must do, and how to prepare to leave any provider fast.
 - [1Password breach: customer emails taken, vaults not accessed](https://bambooflags.com/blog/1password-breach-november-2026.html): Attackers took 1Password source code and customer names and emails in November 2026. Vaults were not accessed. What changes for a business that uses 1Password.
 - [Cleverbridge breach: card numbers and CVV codes stolen](https://bambooflags.com/blog/cleverbridge-breach-card-cvv.html): Cleverbridge, which sells software for Red Hat, Veeam and others, says attackers copied card data, CVV codes included. What to check as a buyer and as a seller.
 - [AI prompts leaked at three providers: what to keep out of them](https://bambooflags.com/blog/ai-prompts-leaked-inference-providers.html): A security test sent two million AI prompts with fake keys. Attackers breached three AI providers and used the keys. What to keep out of the prompts you send.
